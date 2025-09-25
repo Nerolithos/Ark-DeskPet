@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/cmake_install.cmake",
+		"/Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/spine-cpp-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

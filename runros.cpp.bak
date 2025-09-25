@@ -1,0 +1,151 @@
+#include <iostream>
+#include <fstream>
+#include <cstdio>
+#include <cstring>
+
+#include <spine/TextureLoader.h>  // Must come before subclassing TextureLoader
+#include <spine/Atlas.h>
+#include <spine/SkeletonBinary.h>
+#include <spine/AnimationState.h>
+#include <spine/AnimationStateData.h>
+#include <spine/Skeleton.h>
+#include <spine/SkeletonData.h>
+#include <spine/Animation.h>
+#include <spine/Extension.h>
+
+// Simple structure to hold dummy texture info (no real GPU texture, just size info)
+struct DummyTexture {
+	int width;
+	int height;
+};
+
+// Read PNG width/height from file header (IHDR chunk). Returns true on success.
+static bool readPngSize(const char *path, int &w, int &h) {
+	w = h = 0;
+	FILE *fp = std::fopen(path, "rb");
+	if (!fp) return false;
+	unsigned char header[24];
+	size_t n = std::fread(header, 1, sizeof(header), fp);
+	std::fclose(fp);
+	if (n != sizeof(header)) return false;
+	// PNG signature
+	const unsigned char sig[8] = {137,80,78,71,13,10,26,10};
+	if (std::memcmp(header, sig, 8) != 0) return false;
+	// IHDR starts immediately after signature (offset 8 + 4 len + 4 'IHDR' = 16); width & height big-endian
+	w = (header[16] << 24) | (header[17] << 16) | (header[18] << 8) | header[19];
+	h = (header[20] << 24) | (header[21] << 16) | (header[22] << 8) | header[23];
+	return w > 0 && h > 0;
+}
+
+// Custom TextureLoader (no real rendering backend). Only records image dimensions.
+class MyTextureLoader : public spine::TextureLoader {
+public:
+	MyTextureLoader() {}
+	virtual ~MyTextureLoader() {}
+
+	virtual void load(spine::AtlasPage &page, const spine::String &path) {
+		int w = 0, h = 0;
+		// Try read actual PNG size; if fails use fallback 512x512
+		if (!readPngSize(path.buffer(), w, h)) {
+			w = 512; h = 512; // fallback
+			std::cout << "[TextureLoader] Fallback size for " << path.buffer() << " -> 512x512" << std::endl;
+		} else {
+			std::cout << "[TextureLoader] Loaded PNG header: " << path.buffer() << " -> " << w << "x" << h << std::endl;
+		}
+		DummyTexture *tex = new DummyTexture();
+		tex->width = w; tex->height = h;
+		page.setRendererObject(tex); // store pointer
+		page.width = w;
+		page.height = h;
+	}
+
+	virtual void unload(void *texture) {
+		DummyTexture *tex = (DummyTexture*)texture;
+		delete tex;
+	}
+};
+
+// Helper: choose animation name. Prefer "idle" if present, else first animation.
+static spine::String chooseAnimation(spine::SkeletonData *data) {
+	spine::Vector<spine::Animation *> &anims = data->getAnimations();
+	int count = (int)anims.size();
+	if (count == 0) return spine::String("");
+	for (int i = 0; i < count; ++i) {
+		if (std::strcmp(anims[i]->getName().buffer(), "idle") == 0) return anims[i]->getName();
+	}
+	return anims[0]->getName();
+}
+
+// Provide default extension implementation required by spine-cpp.
+namespace spine {
+	SpineExtension* getDefaultExtension() {
+		// DefaultExtension is defined inside spine runtime (Extension.cpp) and derives from SpineExtension.
+		return new DefaultSpineExtension();
+	}
+}
+
+int main() {
+	std::cout << "Spine minimal loader starting..." << std::endl;
+
+	MyTextureLoader textureLoader;
+
+	// Load atlas (will invoke our texture loader for each page)
+	spine::Atlas *atlas = NULL;
+	atlas = new spine::Atlas("rosmon.atlas", &textureLoader, true);
+	if (!atlas) {
+		std::cerr << "Failed to create atlas" << std::endl;
+		return 1;
+	}
+
+	// Read skeleton binary (.skel)
+	spine::SkeletonBinary bin(atlas);
+	bin.setScale(1.0f);
+	spine::SkeletonData *data = bin.readSkeletonDataFile("rosmon.skel");
+	if (!data) {
+		std::cerr << "Failed to load skeleton data (rosmon.skel)" << std::endl;
+		delete atlas;
+		return 2;
+	}
+
+	// List animations
+	spine::Vector<spine::Animation *> &anims = data->getAnimations();
+	std::cout << "Animations (" << anims.size() << "):" << std::endl;
+	for (int i = 0; i < (int)anims.size(); ++i) {
+		std::cout << "  - " << anims[i]->getName().buffer() << std::endl;
+	}
+
+	spine::String animName = chooseAnimation(data);
+	if (animName.length() == 0) {
+		std::cerr << "No animations found in skeleton." << std::endl;
+		delete data; delete atlas; // data allocated by extension but we can free via delete
+		return 3;
+	}
+	std::cout << "Using animation: " << animName.buffer() << std::endl;
+
+	// Create runtime objects
+	spine::AnimationStateData stateData(data);
+	spine::AnimationState state(&stateData);
+	spine::Skeleton skeleton(data);
+	state.setAnimation(0, animName, true);
+
+	// Simulate a short update loop (e.g., 120 frames ~2 seconds at 60fps)
+	for (int frame = 0; frame < 120; ++frame) {
+		float dt = 1.0f / 60.0f;
+		state.update(dt);
+		state.apply(skeleton);
+		skeleton.updateWorldTransform();
+
+		if (frame % 30 == 0) {
+			std::cout << "Frame " << frame << ": time=" << frame * dt << std::endl;
+		}
+	}
+
+	std::cout << "Done. (No rendering implemented)" << std::endl;
+
+	// Cleanup (atlas destructor will call TextureLoader::unload on pages if needed)
+	delete atlas; // This will free pages and call unload
+	// SkeletonData normally cleaned up by extension; explicit delete for symmetry
+	delete data;
+
+	return 0;
+}
