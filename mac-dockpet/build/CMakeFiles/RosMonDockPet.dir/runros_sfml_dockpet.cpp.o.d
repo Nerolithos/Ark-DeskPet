@@ -1,5 +1,5 @@
 CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.o: \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/runros_sfml_dockpet.cpp \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/runros_sfml_dockpet.cpp \
   /opt/homebrew/Cellar/sfml/3.0.2/include/SFML/Graphics.hpp \
   /opt/homebrew/Cellar/sfml/3.0.2/include/SFML/Graphics/BlendMode.hpp \
   /opt/homebrew/Cellar/sfml/3.0.2/include/SFML/Graphics/Export.hpp \
@@ -923,35 +923,35 @@ CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_os_inline.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/arch.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/MacWindowUtils.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Extension.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/dll.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Atlas.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Vector.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/SpineObject.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/SpineString.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/HasRendererObject.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/TextureLoader.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/SkeletonBinary.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/TransformMode.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Color.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/MathUtil.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Skeleton.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/SkeletonData.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/AnimationState.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Pool.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/ContainerUtil.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/HashMap.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/MixBlend.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Slot.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/AnimationStateData.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Animation.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/MixDirection.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/RegionAttachment.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Attachment.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/RTTI.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/MeshAttachment.h \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/VertexAttachment.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/MacWindowUtils.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Extension.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/dll.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Atlas.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Vector.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/SpineObject.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/SpineString.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/HasRendererObject.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/TextureLoader.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/SkeletonBinary.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/TransformMode.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Color.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/MathUtil.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Skeleton.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/SkeletonData.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/AnimationState.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Pool.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/ContainerUtil.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/HashMap.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/MixBlend.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Slot.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/AnimationStateData.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Animation.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/MixDirection.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/RegionAttachment.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/Attachment.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/RTTI.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/MeshAttachment.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include/spine/VertexAttachment.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glext.h \

@@ -1,6 +1,6 @@
 CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.o: \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/MacWindowUtils.mm \
-  /Users/Lithos/Documents/GitHub/spine/mac-dockpet/MacWindowUtils.h \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/MacWindowUtils.mm \
+  /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/MacWindowUtils.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h \

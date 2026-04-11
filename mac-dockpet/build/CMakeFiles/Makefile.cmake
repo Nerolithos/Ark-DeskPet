@@ -7,12 +7,12 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/Lithos/Documents/GitHub/spine/mac-dockpet/CMakeLists.txt"
+  "/Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/CMakeLists.txt"
   "CMakeFiles/4.1.1/CMakeCCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeOBJCXXCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeSystem.cmake"
-  "/Users/Lithos/Documents/GitHub/spine/spine-runtimes/spine-cpp/CMakeLists.txt"
+  "/Users/Lithos/Documents/GitHub/Ark-DeskPet/spine-runtimes/spine-cpp/CMakeLists.txt"
   "/opt/homebrew/share/cmake/Modules/CMakeCInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"

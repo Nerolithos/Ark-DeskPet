@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Lithos/Documents/GitHub/spine/mac-dockpet
+CMAKE_SOURCE_DIR = /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build
+CMAKE_BINARY_DIR = /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RosMonDockPet.dir/depend.make
@@ -73,32 +73,32 @@ CMakeFiles/RosMonDockPet.dir/codegen:
 .PHONY : CMakeFiles/RosMonDockPet.dir/codegen
 
 CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.o: CMakeFiles/RosMonDockPet.dir/flags.make
-CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.o: /Users/Lithos/Documents/GitHub/spine/mac-dockpet/runros_sfml_dockpet.cpp
+CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.o: /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/runros_sfml_dockpet.cpp
 CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.o: CMakeFiles/RosMonDockPet.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.o -MF CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.o.d -o CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.o -c /Users/Lithos/Documents/GitHub/spine/mac-dockpet/runros_sfml_dockpet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.o -MF CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.o.d -o CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.o -c /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/runros_sfml_dockpet.cpp
 
 CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lithos/Documents/GitHub/spine/mac-dockpet/runros_sfml_dockpet.cpp > CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/runros_sfml_dockpet.cpp > CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.i
 
 CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lithos/Documents/GitHub/spine/mac-dockpet/runros_sfml_dockpet.cpp -o CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/runros_sfml_dockpet.cpp -o CMakeFiles/RosMonDockPet.dir/runros_sfml_dockpet.cpp.s
 
 CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.o: CMakeFiles/RosMonDockPet.dir/flags.make
-CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.o: /Users/Lithos/Documents/GitHub/spine/mac-dockpet/MacWindowUtils.mm
+CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.o: /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/MacWindowUtils.mm
 CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.o: CMakeFiles/RosMonDockPet.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building OBJCXX object CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.o"
-	/usr/bin/c++ $(OBJCXX_DEFINES) $(OBJCXX_INCLUDES) -x objective-c++ $(OBJCXX_FLAGS) -MD -MT CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.o -MF CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.o.d -o CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.o -c /Users/Lithos/Documents/GitHub/spine/mac-dockpet/MacWindowUtils.mm
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building OBJCXX object CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.o"
+	/usr/bin/c++ $(OBJCXX_DEFINES) $(OBJCXX_INCLUDES) -x objective-c++ $(OBJCXX_FLAGS) -MD -MT CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.o -MF CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.o.d -o CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.o -c /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/MacWindowUtils.mm
 
 CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing OBJCXX source to CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.i"
-	/usr/bin/c++ $(OBJCXX_DEFINES) $(OBJCXX_INCLUDES) $(OBJCXX_FLAGS) -E /Users/Lithos/Documents/GitHub/spine/mac-dockpet/MacWindowUtils.mm > CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.i
+	/usr/bin/c++ $(OBJCXX_DEFINES) $(OBJCXX_INCLUDES) $(OBJCXX_FLAGS) -E /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/MacWindowUtils.mm > CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.i
 
 CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling OBJCXX source to assembly CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.s"
-	/usr/bin/c++ $(OBJCXX_DEFINES) $(OBJCXX_INCLUDES) $(OBJCXX_FLAGS) -S /Users/Lithos/Documents/GitHub/spine/mac-dockpet/MacWindowUtils.mm -o CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.s
+	/usr/bin/c++ $(OBJCXX_DEFINES) $(OBJCXX_INCLUDES) $(OBJCXX_FLAGS) -S /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/MacWindowUtils.mm -o CMakeFiles/RosMonDockPet.dir/MacWindowUtils.mm.s
 
 # Object files for target RosMonDockPet
 RosMonDockPet_OBJECTS = \
@@ -113,15 +113,15 @@ RosMonDockPet.app/Contents/MacOS/RosMonDockPet: CMakeFiles/RosMonDockPet.dir/Mac
 RosMonDockPet.app/Contents/MacOS/RosMonDockPet: CMakeFiles/RosMonDockPet.dir/build.make
 RosMonDockPet.app/Contents/MacOS/RosMonDockPet: spine-cpp-build/libspine-cpp.a
 RosMonDockPet.app/Contents/MacOS/RosMonDockPet: CMakeFiles/RosMonDockPet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable RosMonDockPet.app/Contents/MacOS/RosMonDockPet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable RosMonDockPet.app/Contents/MacOS/RosMonDockPet"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RosMonDockPet.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Installing runtime resources into app bundle"
-	/opt/homebrew/bin/cmake -E make_directory /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/RosMonDockPet.app/Contents/MacOS/../Resources
-	/opt/homebrew/bin/cmake -E echo Copying\ runtime\ resources\ to\ /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/RosMonDockPet.app/Contents/MacOS/../Resources
-	/opt/homebrew/bin/cmake -E copy_if_different /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../rosmon.atlas /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/RosMonDockPet.app/Contents/MacOS/../Resources/
-	/opt/homebrew/bin/cmake -E copy_if_different /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../rosmon.skel /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/RosMonDockPet.app/Contents/MacOS/../Resources/
-	/opt/homebrew/bin/cmake -E copy_if_different /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../build_char_391_rosmon.png /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/RosMonDockPet.app/Contents/MacOS/../Resources/
-	/opt/homebrew/bin/cmake -E copy_if_different /Users/Lithos/Documents/GitHub/spine/mac-dockpet/../background.png /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/RosMonDockPet.app/Contents/MacOS/../Resources/
+	/opt/homebrew/bin/cmake -E make_directory /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/RosMonDockPet.app/Contents/MacOS/../Resources
+	/opt/homebrew/bin/cmake -E echo Copying\ runtime\ resources\ to\ /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/RosMonDockPet.app/Contents/MacOS/../Resources
+	/opt/homebrew/bin/cmake -E copy_if_different /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../rosmon.atlas /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/RosMonDockPet.app/Contents/MacOS/../Resources/
+	/opt/homebrew/bin/cmake -E copy_if_different /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../rosmon.skel /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/RosMonDockPet.app/Contents/MacOS/../Resources/
+	/opt/homebrew/bin/cmake -E copy_if_different /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../build_char_391_rosmon.png /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/RosMonDockPet.app/Contents/MacOS/../Resources/
+	/opt/homebrew/bin/cmake -E copy_if_different /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../background.png /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/RosMonDockPet.app/Contents/MacOS/../Resources/
 
 # Rule to build all files generated by this target.
 CMakeFiles/RosMonDockPet.dir/build: RosMonDockPet.app/Contents/MacOS/RosMonDockPet
@@ -132,6 +132,6 @@ CMakeFiles/RosMonDockPet.dir/clean:
 .PHONY : CMakeFiles/RosMonDockPet.dir/clean
 
 CMakeFiles/RosMonDockPet.dir/depend:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Lithos/Documents/GitHub/spine/mac-dockpet /Users/Lithos/Documents/GitHub/spine/mac-dockpet /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/CMakeFiles/RosMonDockPet.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/CMakeFiles/RosMonDockPet.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/RosMonDockPet.dir/depend
 

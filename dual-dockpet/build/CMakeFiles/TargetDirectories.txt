@@ -1,0 +1,14 @@
+/Users/Lithos/Documents/GitHub/Ark-DeskPet/dual-dockpet/build/CMakeFiles/DualPetsDockPet.dir
+/Users/Lithos/Documents/GitHub/Ark-DeskPet/dual-dockpet/build/CMakeFiles/edit_cache.dir
+/Users/Lithos/Documents/GitHub/Ark-DeskPet/dual-dockpet/build/CMakeFiles/rebuild_cache.dir
+/Users/Lithos/Documents/GitHub/Ark-DeskPet/dual-dockpet/build/CMakeFiles/list_install_components.dir
+/Users/Lithos/Documents/GitHub/Ark-DeskPet/dual-dockpet/build/CMakeFiles/install.dir
+/Users/Lithos/Documents/GitHub/Ark-DeskPet/dual-dockpet/build/CMakeFiles/install/local.dir
+/Users/Lithos/Documents/GitHub/Ark-DeskPet/dual-dockpet/build/CMakeFiles/install/strip.dir
+/Users/Lithos/Documents/GitHub/Ark-DeskPet/dual-dockpet/build/spine-cpp-build/CMakeFiles/spine-cpp.dir
+/Users/Lithos/Documents/GitHub/Ark-DeskPet/dual-dockpet/build/spine-cpp-build/CMakeFiles/edit_cache.dir
+/Users/Lithos/Documents/GitHub/Ark-DeskPet/dual-dockpet/build/spine-cpp-build/CMakeFiles/rebuild_cache.dir
+/Users/Lithos/Documents/GitHub/Ark-DeskPet/dual-dockpet/build/spine-cpp-build/CMakeFiles/list_install_components.dir
+/Users/Lithos/Documents/GitHub/Ark-DeskPet/dual-dockpet/build/spine-cpp-build/CMakeFiles/install.dir
+/Users/Lithos/Documents/GitHub/Ark-DeskPet/dual-dockpet/build/spine-cpp-build/CMakeFiles/install/local.dir
+/Users/Lithos/Documents/GitHub/Ark-DeskPet/dual-dockpet/build/spine-cpp-build/CMakeFiles/install/strip.dir

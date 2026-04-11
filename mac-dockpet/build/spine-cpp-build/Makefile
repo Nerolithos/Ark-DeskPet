@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Lithos/Documents/GitHub/spine/mac-dockpet
+CMAKE_SOURCE_DIR = /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build
+CMAKE_BINARY_DIR = /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/CMakeFiles /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/spine-cpp-build//CMakeFiles/progress.marks
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spine-cpp-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/CMakeFiles 0
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/CMakeFiles /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/spine-cpp-build//CMakeFiles/progress.marks
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spine-cpp-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spine-cpp-build/clean
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spine-cpp-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spine-cpp-build/preinstall
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spine-cpp-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spine-cpp-build/preinstall
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spine-cpp-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 spine-cpp-build/CMakeFiles/spine-cpp.dir/rule:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spine-cpp-build/CMakeFiles/spine-cpp.dir/rule
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spine-cpp-build/CMakeFiles/spine-cpp.dir/rule
 .PHONY : spine-cpp-build/CMakeFiles/spine-cpp.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ spine-cpp: spine-cpp-build/CMakeFiles/spine-cpp.dir/rule
 
 # fast build rule for target.
 spine-cpp/fast:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/build
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/build
 .PHONY : spine-cpp/fast
 
 spine-cpp/src/spine/Animation.o: spine-cpp/src/spine/Animation.cpp.o
@@ -180,7 +180,7 @@ spine-cpp/src/spine/Animation.o: spine-cpp/src/spine/Animation.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/Animation.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Animation.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Animation.cpp.o
 .PHONY : spine-cpp/src/spine/Animation.cpp.o
 
 spine-cpp/src/spine/Animation.i: spine-cpp/src/spine/Animation.cpp.i
@@ -188,7 +188,7 @@ spine-cpp/src/spine/Animation.i: spine-cpp/src/spine/Animation.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/Animation.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Animation.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Animation.cpp.i
 .PHONY : spine-cpp/src/spine/Animation.cpp.i
 
 spine-cpp/src/spine/Animation.s: spine-cpp/src/spine/Animation.cpp.s
@@ -196,7 +196,7 @@ spine-cpp/src/spine/Animation.s: spine-cpp/src/spine/Animation.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/Animation.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Animation.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Animation.cpp.s
 .PHONY : spine-cpp/src/spine/Animation.cpp.s
 
 spine-cpp/src/spine/AnimationState.o: spine-cpp/src/spine/AnimationState.cpp.o
@@ -204,7 +204,7 @@ spine-cpp/src/spine/AnimationState.o: spine-cpp/src/spine/AnimationState.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/AnimationState.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AnimationState.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AnimationState.cpp.o
 .PHONY : spine-cpp/src/spine/AnimationState.cpp.o
 
 spine-cpp/src/spine/AnimationState.i: spine-cpp/src/spine/AnimationState.cpp.i
@@ -212,7 +212,7 @@ spine-cpp/src/spine/AnimationState.i: spine-cpp/src/spine/AnimationState.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/AnimationState.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AnimationState.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AnimationState.cpp.i
 .PHONY : spine-cpp/src/spine/AnimationState.cpp.i
 
 spine-cpp/src/spine/AnimationState.s: spine-cpp/src/spine/AnimationState.cpp.s
@@ -220,7 +220,7 @@ spine-cpp/src/spine/AnimationState.s: spine-cpp/src/spine/AnimationState.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/AnimationState.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AnimationState.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AnimationState.cpp.s
 .PHONY : spine-cpp/src/spine/AnimationState.cpp.s
 
 spine-cpp/src/spine/AnimationStateData.o: spine-cpp/src/spine/AnimationStateData.cpp.o
@@ -228,7 +228,7 @@ spine-cpp/src/spine/AnimationStateData.o: spine-cpp/src/spine/AnimationStateData
 
 # target to build an object file
 spine-cpp/src/spine/AnimationStateData.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AnimationStateData.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AnimationStateData.cpp.o
 .PHONY : spine-cpp/src/spine/AnimationStateData.cpp.o
 
 spine-cpp/src/spine/AnimationStateData.i: spine-cpp/src/spine/AnimationStateData.cpp.i
@@ -236,7 +236,7 @@ spine-cpp/src/spine/AnimationStateData.i: spine-cpp/src/spine/AnimationStateData
 
 # target to preprocess a source file
 spine-cpp/src/spine/AnimationStateData.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AnimationStateData.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AnimationStateData.cpp.i
 .PHONY : spine-cpp/src/spine/AnimationStateData.cpp.i
 
 spine-cpp/src/spine/AnimationStateData.s: spine-cpp/src/spine/AnimationStateData.cpp.s
@@ -244,7 +244,7 @@ spine-cpp/src/spine/AnimationStateData.s: spine-cpp/src/spine/AnimationStateData
 
 # target to generate assembly for a file
 spine-cpp/src/spine/AnimationStateData.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AnimationStateData.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AnimationStateData.cpp.s
 .PHONY : spine-cpp/src/spine/AnimationStateData.cpp.s
 
 spine-cpp/src/spine/Atlas.o: spine-cpp/src/spine/Atlas.cpp.o
@@ -252,7 +252,7 @@ spine-cpp/src/spine/Atlas.o: spine-cpp/src/spine/Atlas.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/Atlas.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Atlas.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Atlas.cpp.o
 .PHONY : spine-cpp/src/spine/Atlas.cpp.o
 
 spine-cpp/src/spine/Atlas.i: spine-cpp/src/spine/Atlas.cpp.i
@@ -260,7 +260,7 @@ spine-cpp/src/spine/Atlas.i: spine-cpp/src/spine/Atlas.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/Atlas.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Atlas.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Atlas.cpp.i
 .PHONY : spine-cpp/src/spine/Atlas.cpp.i
 
 spine-cpp/src/spine/Atlas.s: spine-cpp/src/spine/Atlas.cpp.s
@@ -268,7 +268,7 @@ spine-cpp/src/spine/Atlas.s: spine-cpp/src/spine/Atlas.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/Atlas.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Atlas.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Atlas.cpp.s
 .PHONY : spine-cpp/src/spine/Atlas.cpp.s
 
 spine-cpp/src/spine/AtlasAttachmentLoader.o: spine-cpp/src/spine/AtlasAttachmentLoader.cpp.o
@@ -276,7 +276,7 @@ spine-cpp/src/spine/AtlasAttachmentLoader.o: spine-cpp/src/spine/AtlasAttachment
 
 # target to build an object file
 spine-cpp/src/spine/AtlasAttachmentLoader.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AtlasAttachmentLoader.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AtlasAttachmentLoader.cpp.o
 .PHONY : spine-cpp/src/spine/AtlasAttachmentLoader.cpp.o
 
 spine-cpp/src/spine/AtlasAttachmentLoader.i: spine-cpp/src/spine/AtlasAttachmentLoader.cpp.i
@@ -284,7 +284,7 @@ spine-cpp/src/spine/AtlasAttachmentLoader.i: spine-cpp/src/spine/AtlasAttachment
 
 # target to preprocess a source file
 spine-cpp/src/spine/AtlasAttachmentLoader.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AtlasAttachmentLoader.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AtlasAttachmentLoader.cpp.i
 .PHONY : spine-cpp/src/spine/AtlasAttachmentLoader.cpp.i
 
 spine-cpp/src/spine/AtlasAttachmentLoader.s: spine-cpp/src/spine/AtlasAttachmentLoader.cpp.s
@@ -292,7 +292,7 @@ spine-cpp/src/spine/AtlasAttachmentLoader.s: spine-cpp/src/spine/AtlasAttachment
 
 # target to generate assembly for a file
 spine-cpp/src/spine/AtlasAttachmentLoader.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AtlasAttachmentLoader.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AtlasAttachmentLoader.cpp.s
 .PHONY : spine-cpp/src/spine/AtlasAttachmentLoader.cpp.s
 
 spine-cpp/src/spine/Attachment.o: spine-cpp/src/spine/Attachment.cpp.o
@@ -300,7 +300,7 @@ spine-cpp/src/spine/Attachment.o: spine-cpp/src/spine/Attachment.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/Attachment.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Attachment.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Attachment.cpp.o
 .PHONY : spine-cpp/src/spine/Attachment.cpp.o
 
 spine-cpp/src/spine/Attachment.i: spine-cpp/src/spine/Attachment.cpp.i
@@ -308,7 +308,7 @@ spine-cpp/src/spine/Attachment.i: spine-cpp/src/spine/Attachment.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/Attachment.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Attachment.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Attachment.cpp.i
 .PHONY : spine-cpp/src/spine/Attachment.cpp.i
 
 spine-cpp/src/spine/Attachment.s: spine-cpp/src/spine/Attachment.cpp.s
@@ -316,7 +316,7 @@ spine-cpp/src/spine/Attachment.s: spine-cpp/src/spine/Attachment.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/Attachment.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Attachment.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Attachment.cpp.s
 .PHONY : spine-cpp/src/spine/Attachment.cpp.s
 
 spine-cpp/src/spine/AttachmentLoader.o: spine-cpp/src/spine/AttachmentLoader.cpp.o
@@ -324,7 +324,7 @@ spine-cpp/src/spine/AttachmentLoader.o: spine-cpp/src/spine/AttachmentLoader.cpp
 
 # target to build an object file
 spine-cpp/src/spine/AttachmentLoader.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AttachmentLoader.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AttachmentLoader.cpp.o
 .PHONY : spine-cpp/src/spine/AttachmentLoader.cpp.o
 
 spine-cpp/src/spine/AttachmentLoader.i: spine-cpp/src/spine/AttachmentLoader.cpp.i
@@ -332,7 +332,7 @@ spine-cpp/src/spine/AttachmentLoader.i: spine-cpp/src/spine/AttachmentLoader.cpp
 
 # target to preprocess a source file
 spine-cpp/src/spine/AttachmentLoader.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AttachmentLoader.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AttachmentLoader.cpp.i
 .PHONY : spine-cpp/src/spine/AttachmentLoader.cpp.i
 
 spine-cpp/src/spine/AttachmentLoader.s: spine-cpp/src/spine/AttachmentLoader.cpp.s
@@ -340,7 +340,7 @@ spine-cpp/src/spine/AttachmentLoader.s: spine-cpp/src/spine/AttachmentLoader.cpp
 
 # target to generate assembly for a file
 spine-cpp/src/spine/AttachmentLoader.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AttachmentLoader.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AttachmentLoader.cpp.s
 .PHONY : spine-cpp/src/spine/AttachmentLoader.cpp.s
 
 spine-cpp/src/spine/AttachmentTimeline.o: spine-cpp/src/spine/AttachmentTimeline.cpp.o
@@ -348,7 +348,7 @@ spine-cpp/src/spine/AttachmentTimeline.o: spine-cpp/src/spine/AttachmentTimeline
 
 # target to build an object file
 spine-cpp/src/spine/AttachmentTimeline.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AttachmentTimeline.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AttachmentTimeline.cpp.o
 .PHONY : spine-cpp/src/spine/AttachmentTimeline.cpp.o
 
 spine-cpp/src/spine/AttachmentTimeline.i: spine-cpp/src/spine/AttachmentTimeline.cpp.i
@@ -356,7 +356,7 @@ spine-cpp/src/spine/AttachmentTimeline.i: spine-cpp/src/spine/AttachmentTimeline
 
 # target to preprocess a source file
 spine-cpp/src/spine/AttachmentTimeline.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AttachmentTimeline.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AttachmentTimeline.cpp.i
 .PHONY : spine-cpp/src/spine/AttachmentTimeline.cpp.i
 
 spine-cpp/src/spine/AttachmentTimeline.s: spine-cpp/src/spine/AttachmentTimeline.cpp.s
@@ -364,7 +364,7 @@ spine-cpp/src/spine/AttachmentTimeline.s: spine-cpp/src/spine/AttachmentTimeline
 
 # target to generate assembly for a file
 spine-cpp/src/spine/AttachmentTimeline.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AttachmentTimeline.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/AttachmentTimeline.cpp.s
 .PHONY : spine-cpp/src/spine/AttachmentTimeline.cpp.s
 
 spine-cpp/src/spine/Bone.o: spine-cpp/src/spine/Bone.cpp.o
@@ -372,7 +372,7 @@ spine-cpp/src/spine/Bone.o: spine-cpp/src/spine/Bone.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/Bone.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Bone.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Bone.cpp.o
 .PHONY : spine-cpp/src/spine/Bone.cpp.o
 
 spine-cpp/src/spine/Bone.i: spine-cpp/src/spine/Bone.cpp.i
@@ -380,7 +380,7 @@ spine-cpp/src/spine/Bone.i: spine-cpp/src/spine/Bone.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/Bone.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Bone.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Bone.cpp.i
 .PHONY : spine-cpp/src/spine/Bone.cpp.i
 
 spine-cpp/src/spine/Bone.s: spine-cpp/src/spine/Bone.cpp.s
@@ -388,7 +388,7 @@ spine-cpp/src/spine/Bone.s: spine-cpp/src/spine/Bone.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/Bone.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Bone.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Bone.cpp.s
 .PHONY : spine-cpp/src/spine/Bone.cpp.s
 
 spine-cpp/src/spine/BoneData.o: spine-cpp/src/spine/BoneData.cpp.o
@@ -396,7 +396,7 @@ spine-cpp/src/spine/BoneData.o: spine-cpp/src/spine/BoneData.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/BoneData.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/BoneData.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/BoneData.cpp.o
 .PHONY : spine-cpp/src/spine/BoneData.cpp.o
 
 spine-cpp/src/spine/BoneData.i: spine-cpp/src/spine/BoneData.cpp.i
@@ -404,7 +404,7 @@ spine-cpp/src/spine/BoneData.i: spine-cpp/src/spine/BoneData.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/BoneData.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/BoneData.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/BoneData.cpp.i
 .PHONY : spine-cpp/src/spine/BoneData.cpp.i
 
 spine-cpp/src/spine/BoneData.s: spine-cpp/src/spine/BoneData.cpp.s
@@ -412,7 +412,7 @@ spine-cpp/src/spine/BoneData.s: spine-cpp/src/spine/BoneData.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/BoneData.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/BoneData.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/BoneData.cpp.s
 .PHONY : spine-cpp/src/spine/BoneData.cpp.s
 
 spine-cpp/src/spine/BoundingBoxAttachment.o: spine-cpp/src/spine/BoundingBoxAttachment.cpp.o
@@ -420,7 +420,7 @@ spine-cpp/src/spine/BoundingBoxAttachment.o: spine-cpp/src/spine/BoundingBoxAtta
 
 # target to build an object file
 spine-cpp/src/spine/BoundingBoxAttachment.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/BoundingBoxAttachment.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/BoundingBoxAttachment.cpp.o
 .PHONY : spine-cpp/src/spine/BoundingBoxAttachment.cpp.o
 
 spine-cpp/src/spine/BoundingBoxAttachment.i: spine-cpp/src/spine/BoundingBoxAttachment.cpp.i
@@ -428,7 +428,7 @@ spine-cpp/src/spine/BoundingBoxAttachment.i: spine-cpp/src/spine/BoundingBoxAtta
 
 # target to preprocess a source file
 spine-cpp/src/spine/BoundingBoxAttachment.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/BoundingBoxAttachment.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/BoundingBoxAttachment.cpp.i
 .PHONY : spine-cpp/src/spine/BoundingBoxAttachment.cpp.i
 
 spine-cpp/src/spine/BoundingBoxAttachment.s: spine-cpp/src/spine/BoundingBoxAttachment.cpp.s
@@ -436,7 +436,7 @@ spine-cpp/src/spine/BoundingBoxAttachment.s: spine-cpp/src/spine/BoundingBoxAtta
 
 # target to generate assembly for a file
 spine-cpp/src/spine/BoundingBoxAttachment.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/BoundingBoxAttachment.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/BoundingBoxAttachment.cpp.s
 .PHONY : spine-cpp/src/spine/BoundingBoxAttachment.cpp.s
 
 spine-cpp/src/spine/ClippingAttachment.o: spine-cpp/src/spine/ClippingAttachment.cpp.o
@@ -444,7 +444,7 @@ spine-cpp/src/spine/ClippingAttachment.o: spine-cpp/src/spine/ClippingAttachment
 
 # target to build an object file
 spine-cpp/src/spine/ClippingAttachment.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ClippingAttachment.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ClippingAttachment.cpp.o
 .PHONY : spine-cpp/src/spine/ClippingAttachment.cpp.o
 
 spine-cpp/src/spine/ClippingAttachment.i: spine-cpp/src/spine/ClippingAttachment.cpp.i
@@ -452,7 +452,7 @@ spine-cpp/src/spine/ClippingAttachment.i: spine-cpp/src/spine/ClippingAttachment
 
 # target to preprocess a source file
 spine-cpp/src/spine/ClippingAttachment.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ClippingAttachment.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ClippingAttachment.cpp.i
 .PHONY : spine-cpp/src/spine/ClippingAttachment.cpp.i
 
 spine-cpp/src/spine/ClippingAttachment.s: spine-cpp/src/spine/ClippingAttachment.cpp.s
@@ -460,7 +460,7 @@ spine-cpp/src/spine/ClippingAttachment.s: spine-cpp/src/spine/ClippingAttachment
 
 # target to generate assembly for a file
 spine-cpp/src/spine/ClippingAttachment.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ClippingAttachment.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ClippingAttachment.cpp.s
 .PHONY : spine-cpp/src/spine/ClippingAttachment.cpp.s
 
 spine-cpp/src/spine/ColorTimeline.o: spine-cpp/src/spine/ColorTimeline.cpp.o
@@ -468,7 +468,7 @@ spine-cpp/src/spine/ColorTimeline.o: spine-cpp/src/spine/ColorTimeline.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/ColorTimeline.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ColorTimeline.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ColorTimeline.cpp.o
 .PHONY : spine-cpp/src/spine/ColorTimeline.cpp.o
 
 spine-cpp/src/spine/ColorTimeline.i: spine-cpp/src/spine/ColorTimeline.cpp.i
@@ -476,7 +476,7 @@ spine-cpp/src/spine/ColorTimeline.i: spine-cpp/src/spine/ColorTimeline.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/ColorTimeline.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ColorTimeline.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ColorTimeline.cpp.i
 .PHONY : spine-cpp/src/spine/ColorTimeline.cpp.i
 
 spine-cpp/src/spine/ColorTimeline.s: spine-cpp/src/spine/ColorTimeline.cpp.s
@@ -484,7 +484,7 @@ spine-cpp/src/spine/ColorTimeline.s: spine-cpp/src/spine/ColorTimeline.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/ColorTimeline.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ColorTimeline.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ColorTimeline.cpp.s
 .PHONY : spine-cpp/src/spine/ColorTimeline.cpp.s
 
 spine-cpp/src/spine/ConstraintData.o: spine-cpp/src/spine/ConstraintData.cpp.o
@@ -492,7 +492,7 @@ spine-cpp/src/spine/ConstraintData.o: spine-cpp/src/spine/ConstraintData.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/ConstraintData.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ConstraintData.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ConstraintData.cpp.o
 .PHONY : spine-cpp/src/spine/ConstraintData.cpp.o
 
 spine-cpp/src/spine/ConstraintData.i: spine-cpp/src/spine/ConstraintData.cpp.i
@@ -500,7 +500,7 @@ spine-cpp/src/spine/ConstraintData.i: spine-cpp/src/spine/ConstraintData.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/ConstraintData.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ConstraintData.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ConstraintData.cpp.i
 .PHONY : spine-cpp/src/spine/ConstraintData.cpp.i
 
 spine-cpp/src/spine/ConstraintData.s: spine-cpp/src/spine/ConstraintData.cpp.s
@@ -508,7 +508,7 @@ spine-cpp/src/spine/ConstraintData.s: spine-cpp/src/spine/ConstraintData.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/ConstraintData.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ConstraintData.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ConstraintData.cpp.s
 .PHONY : spine-cpp/src/spine/ConstraintData.cpp.s
 
 spine-cpp/src/spine/CurveTimeline.o: spine-cpp/src/spine/CurveTimeline.cpp.o
@@ -516,7 +516,7 @@ spine-cpp/src/spine/CurveTimeline.o: spine-cpp/src/spine/CurveTimeline.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/CurveTimeline.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/CurveTimeline.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/CurveTimeline.cpp.o
 .PHONY : spine-cpp/src/spine/CurveTimeline.cpp.o
 
 spine-cpp/src/spine/CurveTimeline.i: spine-cpp/src/spine/CurveTimeline.cpp.i
@@ -524,7 +524,7 @@ spine-cpp/src/spine/CurveTimeline.i: spine-cpp/src/spine/CurveTimeline.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/CurveTimeline.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/CurveTimeline.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/CurveTimeline.cpp.i
 .PHONY : spine-cpp/src/spine/CurveTimeline.cpp.i
 
 spine-cpp/src/spine/CurveTimeline.s: spine-cpp/src/spine/CurveTimeline.cpp.s
@@ -532,7 +532,7 @@ spine-cpp/src/spine/CurveTimeline.s: spine-cpp/src/spine/CurveTimeline.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/CurveTimeline.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/CurveTimeline.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/CurveTimeline.cpp.s
 .PHONY : spine-cpp/src/spine/CurveTimeline.cpp.s
 
 spine-cpp/src/spine/DeformTimeline.o: spine-cpp/src/spine/DeformTimeline.cpp.o
@@ -540,7 +540,7 @@ spine-cpp/src/spine/DeformTimeline.o: spine-cpp/src/spine/DeformTimeline.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/DeformTimeline.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/DeformTimeline.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/DeformTimeline.cpp.o
 .PHONY : spine-cpp/src/spine/DeformTimeline.cpp.o
 
 spine-cpp/src/spine/DeformTimeline.i: spine-cpp/src/spine/DeformTimeline.cpp.i
@@ -548,7 +548,7 @@ spine-cpp/src/spine/DeformTimeline.i: spine-cpp/src/spine/DeformTimeline.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/DeformTimeline.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/DeformTimeline.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/DeformTimeline.cpp.i
 .PHONY : spine-cpp/src/spine/DeformTimeline.cpp.i
 
 spine-cpp/src/spine/DeformTimeline.s: spine-cpp/src/spine/DeformTimeline.cpp.s
@@ -556,7 +556,7 @@ spine-cpp/src/spine/DeformTimeline.s: spine-cpp/src/spine/DeformTimeline.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/DeformTimeline.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/DeformTimeline.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/DeformTimeline.cpp.s
 .PHONY : spine-cpp/src/spine/DeformTimeline.cpp.s
 
 spine-cpp/src/spine/DrawOrderTimeline.o: spine-cpp/src/spine/DrawOrderTimeline.cpp.o
@@ -564,7 +564,7 @@ spine-cpp/src/spine/DrawOrderTimeline.o: spine-cpp/src/spine/DrawOrderTimeline.c
 
 # target to build an object file
 spine-cpp/src/spine/DrawOrderTimeline.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/DrawOrderTimeline.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/DrawOrderTimeline.cpp.o
 .PHONY : spine-cpp/src/spine/DrawOrderTimeline.cpp.o
 
 spine-cpp/src/spine/DrawOrderTimeline.i: spine-cpp/src/spine/DrawOrderTimeline.cpp.i
@@ -572,7 +572,7 @@ spine-cpp/src/spine/DrawOrderTimeline.i: spine-cpp/src/spine/DrawOrderTimeline.c
 
 # target to preprocess a source file
 spine-cpp/src/spine/DrawOrderTimeline.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/DrawOrderTimeline.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/DrawOrderTimeline.cpp.i
 .PHONY : spine-cpp/src/spine/DrawOrderTimeline.cpp.i
 
 spine-cpp/src/spine/DrawOrderTimeline.s: spine-cpp/src/spine/DrawOrderTimeline.cpp.s
@@ -580,7 +580,7 @@ spine-cpp/src/spine/DrawOrderTimeline.s: spine-cpp/src/spine/DrawOrderTimeline.c
 
 # target to generate assembly for a file
 spine-cpp/src/spine/DrawOrderTimeline.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/DrawOrderTimeline.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/DrawOrderTimeline.cpp.s
 .PHONY : spine-cpp/src/spine/DrawOrderTimeline.cpp.s
 
 spine-cpp/src/spine/Event.o: spine-cpp/src/spine/Event.cpp.o
@@ -588,7 +588,7 @@ spine-cpp/src/spine/Event.o: spine-cpp/src/spine/Event.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/Event.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Event.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Event.cpp.o
 .PHONY : spine-cpp/src/spine/Event.cpp.o
 
 spine-cpp/src/spine/Event.i: spine-cpp/src/spine/Event.cpp.i
@@ -596,7 +596,7 @@ spine-cpp/src/spine/Event.i: spine-cpp/src/spine/Event.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/Event.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Event.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Event.cpp.i
 .PHONY : spine-cpp/src/spine/Event.cpp.i
 
 spine-cpp/src/spine/Event.s: spine-cpp/src/spine/Event.cpp.s
@@ -604,7 +604,7 @@ spine-cpp/src/spine/Event.s: spine-cpp/src/spine/Event.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/Event.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Event.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Event.cpp.s
 .PHONY : spine-cpp/src/spine/Event.cpp.s
 
 spine-cpp/src/spine/EventData.o: spine-cpp/src/spine/EventData.cpp.o
@@ -612,7 +612,7 @@ spine-cpp/src/spine/EventData.o: spine-cpp/src/spine/EventData.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/EventData.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/EventData.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/EventData.cpp.o
 .PHONY : spine-cpp/src/spine/EventData.cpp.o
 
 spine-cpp/src/spine/EventData.i: spine-cpp/src/spine/EventData.cpp.i
@@ -620,7 +620,7 @@ spine-cpp/src/spine/EventData.i: spine-cpp/src/spine/EventData.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/EventData.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/EventData.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/EventData.cpp.i
 .PHONY : spine-cpp/src/spine/EventData.cpp.i
 
 spine-cpp/src/spine/EventData.s: spine-cpp/src/spine/EventData.cpp.s
@@ -628,7 +628,7 @@ spine-cpp/src/spine/EventData.s: spine-cpp/src/spine/EventData.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/EventData.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/EventData.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/EventData.cpp.s
 .PHONY : spine-cpp/src/spine/EventData.cpp.s
 
 spine-cpp/src/spine/EventTimeline.o: spine-cpp/src/spine/EventTimeline.cpp.o
@@ -636,7 +636,7 @@ spine-cpp/src/spine/EventTimeline.o: spine-cpp/src/spine/EventTimeline.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/EventTimeline.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/EventTimeline.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/EventTimeline.cpp.o
 .PHONY : spine-cpp/src/spine/EventTimeline.cpp.o
 
 spine-cpp/src/spine/EventTimeline.i: spine-cpp/src/spine/EventTimeline.cpp.i
@@ -644,7 +644,7 @@ spine-cpp/src/spine/EventTimeline.i: spine-cpp/src/spine/EventTimeline.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/EventTimeline.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/EventTimeline.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/EventTimeline.cpp.i
 .PHONY : spine-cpp/src/spine/EventTimeline.cpp.i
 
 spine-cpp/src/spine/EventTimeline.s: spine-cpp/src/spine/EventTimeline.cpp.s
@@ -652,7 +652,7 @@ spine-cpp/src/spine/EventTimeline.s: spine-cpp/src/spine/EventTimeline.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/EventTimeline.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/EventTimeline.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/EventTimeline.cpp.s
 .PHONY : spine-cpp/src/spine/EventTimeline.cpp.s
 
 spine-cpp/src/spine/Extension.o: spine-cpp/src/spine/Extension.cpp.o
@@ -660,7 +660,7 @@ spine-cpp/src/spine/Extension.o: spine-cpp/src/spine/Extension.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/Extension.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Extension.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Extension.cpp.o
 .PHONY : spine-cpp/src/spine/Extension.cpp.o
 
 spine-cpp/src/spine/Extension.i: spine-cpp/src/spine/Extension.cpp.i
@@ -668,7 +668,7 @@ spine-cpp/src/spine/Extension.i: spine-cpp/src/spine/Extension.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/Extension.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Extension.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Extension.cpp.i
 .PHONY : spine-cpp/src/spine/Extension.cpp.i
 
 spine-cpp/src/spine/Extension.s: spine-cpp/src/spine/Extension.cpp.s
@@ -676,7 +676,7 @@ spine-cpp/src/spine/Extension.s: spine-cpp/src/spine/Extension.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/Extension.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Extension.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Extension.cpp.s
 .PHONY : spine-cpp/src/spine/Extension.cpp.s
 
 spine-cpp/src/spine/IkConstraint.o: spine-cpp/src/spine/IkConstraint.cpp.o
@@ -684,7 +684,7 @@ spine-cpp/src/spine/IkConstraint.o: spine-cpp/src/spine/IkConstraint.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/IkConstraint.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraint.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraint.cpp.o
 .PHONY : spine-cpp/src/spine/IkConstraint.cpp.o
 
 spine-cpp/src/spine/IkConstraint.i: spine-cpp/src/spine/IkConstraint.cpp.i
@@ -692,7 +692,7 @@ spine-cpp/src/spine/IkConstraint.i: spine-cpp/src/spine/IkConstraint.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/IkConstraint.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraint.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraint.cpp.i
 .PHONY : spine-cpp/src/spine/IkConstraint.cpp.i
 
 spine-cpp/src/spine/IkConstraint.s: spine-cpp/src/spine/IkConstraint.cpp.s
@@ -700,7 +700,7 @@ spine-cpp/src/spine/IkConstraint.s: spine-cpp/src/spine/IkConstraint.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/IkConstraint.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraint.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraint.cpp.s
 .PHONY : spine-cpp/src/spine/IkConstraint.cpp.s
 
 spine-cpp/src/spine/IkConstraintData.o: spine-cpp/src/spine/IkConstraintData.cpp.o
@@ -708,7 +708,7 @@ spine-cpp/src/spine/IkConstraintData.o: spine-cpp/src/spine/IkConstraintData.cpp
 
 # target to build an object file
 spine-cpp/src/spine/IkConstraintData.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraintData.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraintData.cpp.o
 .PHONY : spine-cpp/src/spine/IkConstraintData.cpp.o
 
 spine-cpp/src/spine/IkConstraintData.i: spine-cpp/src/spine/IkConstraintData.cpp.i
@@ -716,7 +716,7 @@ spine-cpp/src/spine/IkConstraintData.i: spine-cpp/src/spine/IkConstraintData.cpp
 
 # target to preprocess a source file
 spine-cpp/src/spine/IkConstraintData.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraintData.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraintData.cpp.i
 .PHONY : spine-cpp/src/spine/IkConstraintData.cpp.i
 
 spine-cpp/src/spine/IkConstraintData.s: spine-cpp/src/spine/IkConstraintData.cpp.s
@@ -724,7 +724,7 @@ spine-cpp/src/spine/IkConstraintData.s: spine-cpp/src/spine/IkConstraintData.cpp
 
 # target to generate assembly for a file
 spine-cpp/src/spine/IkConstraintData.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraintData.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraintData.cpp.s
 .PHONY : spine-cpp/src/spine/IkConstraintData.cpp.s
 
 spine-cpp/src/spine/IkConstraintTimeline.o: spine-cpp/src/spine/IkConstraintTimeline.cpp.o
@@ -732,7 +732,7 @@ spine-cpp/src/spine/IkConstraintTimeline.o: spine-cpp/src/spine/IkConstraintTime
 
 # target to build an object file
 spine-cpp/src/spine/IkConstraintTimeline.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraintTimeline.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraintTimeline.cpp.o
 .PHONY : spine-cpp/src/spine/IkConstraintTimeline.cpp.o
 
 spine-cpp/src/spine/IkConstraintTimeline.i: spine-cpp/src/spine/IkConstraintTimeline.cpp.i
@@ -740,7 +740,7 @@ spine-cpp/src/spine/IkConstraintTimeline.i: spine-cpp/src/spine/IkConstraintTime
 
 # target to preprocess a source file
 spine-cpp/src/spine/IkConstraintTimeline.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraintTimeline.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraintTimeline.cpp.i
 .PHONY : spine-cpp/src/spine/IkConstraintTimeline.cpp.i
 
 spine-cpp/src/spine/IkConstraintTimeline.s: spine-cpp/src/spine/IkConstraintTimeline.cpp.s
@@ -748,7 +748,7 @@ spine-cpp/src/spine/IkConstraintTimeline.s: spine-cpp/src/spine/IkConstraintTime
 
 # target to generate assembly for a file
 spine-cpp/src/spine/IkConstraintTimeline.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraintTimeline.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/IkConstraintTimeline.cpp.s
 .PHONY : spine-cpp/src/spine/IkConstraintTimeline.cpp.s
 
 spine-cpp/src/spine/Json.o: spine-cpp/src/spine/Json.cpp.o
@@ -756,7 +756,7 @@ spine-cpp/src/spine/Json.o: spine-cpp/src/spine/Json.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/Json.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Json.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Json.cpp.o
 .PHONY : spine-cpp/src/spine/Json.cpp.o
 
 spine-cpp/src/spine/Json.i: spine-cpp/src/spine/Json.cpp.i
@@ -764,7 +764,7 @@ spine-cpp/src/spine/Json.i: spine-cpp/src/spine/Json.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/Json.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Json.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Json.cpp.i
 .PHONY : spine-cpp/src/spine/Json.cpp.i
 
 spine-cpp/src/spine/Json.s: spine-cpp/src/spine/Json.cpp.s
@@ -772,7 +772,7 @@ spine-cpp/src/spine/Json.s: spine-cpp/src/spine/Json.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/Json.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Json.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Json.cpp.s
 .PHONY : spine-cpp/src/spine/Json.cpp.s
 
 spine-cpp/src/spine/LinkedMesh.o: spine-cpp/src/spine/LinkedMesh.cpp.o
@@ -780,7 +780,7 @@ spine-cpp/src/spine/LinkedMesh.o: spine-cpp/src/spine/LinkedMesh.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/LinkedMesh.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/LinkedMesh.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/LinkedMesh.cpp.o
 .PHONY : spine-cpp/src/spine/LinkedMesh.cpp.o
 
 spine-cpp/src/spine/LinkedMesh.i: spine-cpp/src/spine/LinkedMesh.cpp.i
@@ -788,7 +788,7 @@ spine-cpp/src/spine/LinkedMesh.i: spine-cpp/src/spine/LinkedMesh.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/LinkedMesh.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/LinkedMesh.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/LinkedMesh.cpp.i
 .PHONY : spine-cpp/src/spine/LinkedMesh.cpp.i
 
 spine-cpp/src/spine/LinkedMesh.s: spine-cpp/src/spine/LinkedMesh.cpp.s
@@ -796,7 +796,7 @@ spine-cpp/src/spine/LinkedMesh.s: spine-cpp/src/spine/LinkedMesh.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/LinkedMesh.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/LinkedMesh.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/LinkedMesh.cpp.s
 .PHONY : spine-cpp/src/spine/LinkedMesh.cpp.s
 
 spine-cpp/src/spine/MathUtil.o: spine-cpp/src/spine/MathUtil.cpp.o
@@ -804,7 +804,7 @@ spine-cpp/src/spine/MathUtil.o: spine-cpp/src/spine/MathUtil.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/MathUtil.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/MathUtil.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/MathUtil.cpp.o
 .PHONY : spine-cpp/src/spine/MathUtil.cpp.o
 
 spine-cpp/src/spine/MathUtil.i: spine-cpp/src/spine/MathUtil.cpp.i
@@ -812,7 +812,7 @@ spine-cpp/src/spine/MathUtil.i: spine-cpp/src/spine/MathUtil.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/MathUtil.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/MathUtil.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/MathUtil.cpp.i
 .PHONY : spine-cpp/src/spine/MathUtil.cpp.i
 
 spine-cpp/src/spine/MathUtil.s: spine-cpp/src/spine/MathUtil.cpp.s
@@ -820,7 +820,7 @@ spine-cpp/src/spine/MathUtil.s: spine-cpp/src/spine/MathUtil.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/MathUtil.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/MathUtil.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/MathUtil.cpp.s
 .PHONY : spine-cpp/src/spine/MathUtil.cpp.s
 
 spine-cpp/src/spine/MeshAttachment.o: spine-cpp/src/spine/MeshAttachment.cpp.o
@@ -828,7 +828,7 @@ spine-cpp/src/spine/MeshAttachment.o: spine-cpp/src/spine/MeshAttachment.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/MeshAttachment.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/MeshAttachment.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/MeshAttachment.cpp.o
 .PHONY : spine-cpp/src/spine/MeshAttachment.cpp.o
 
 spine-cpp/src/spine/MeshAttachment.i: spine-cpp/src/spine/MeshAttachment.cpp.i
@@ -836,7 +836,7 @@ spine-cpp/src/spine/MeshAttachment.i: spine-cpp/src/spine/MeshAttachment.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/MeshAttachment.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/MeshAttachment.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/MeshAttachment.cpp.i
 .PHONY : spine-cpp/src/spine/MeshAttachment.cpp.i
 
 spine-cpp/src/spine/MeshAttachment.s: spine-cpp/src/spine/MeshAttachment.cpp.s
@@ -844,7 +844,7 @@ spine-cpp/src/spine/MeshAttachment.s: spine-cpp/src/spine/MeshAttachment.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/MeshAttachment.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/MeshAttachment.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/MeshAttachment.cpp.s
 .PHONY : spine-cpp/src/spine/MeshAttachment.cpp.s
 
 spine-cpp/src/spine/PathAttachment.o: spine-cpp/src/spine/PathAttachment.cpp.o
@@ -852,7 +852,7 @@ spine-cpp/src/spine/PathAttachment.o: spine-cpp/src/spine/PathAttachment.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/PathAttachment.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathAttachment.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathAttachment.cpp.o
 .PHONY : spine-cpp/src/spine/PathAttachment.cpp.o
 
 spine-cpp/src/spine/PathAttachment.i: spine-cpp/src/spine/PathAttachment.cpp.i
@@ -860,7 +860,7 @@ spine-cpp/src/spine/PathAttachment.i: spine-cpp/src/spine/PathAttachment.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/PathAttachment.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathAttachment.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathAttachment.cpp.i
 .PHONY : spine-cpp/src/spine/PathAttachment.cpp.i
 
 spine-cpp/src/spine/PathAttachment.s: spine-cpp/src/spine/PathAttachment.cpp.s
@@ -868,7 +868,7 @@ spine-cpp/src/spine/PathAttachment.s: spine-cpp/src/spine/PathAttachment.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/PathAttachment.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathAttachment.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathAttachment.cpp.s
 .PHONY : spine-cpp/src/spine/PathAttachment.cpp.s
 
 spine-cpp/src/spine/PathConstraint.o: spine-cpp/src/spine/PathConstraint.cpp.o
@@ -876,7 +876,7 @@ spine-cpp/src/spine/PathConstraint.o: spine-cpp/src/spine/PathConstraint.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/PathConstraint.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraint.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraint.cpp.o
 .PHONY : spine-cpp/src/spine/PathConstraint.cpp.o
 
 spine-cpp/src/spine/PathConstraint.i: spine-cpp/src/spine/PathConstraint.cpp.i
@@ -884,7 +884,7 @@ spine-cpp/src/spine/PathConstraint.i: spine-cpp/src/spine/PathConstraint.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/PathConstraint.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraint.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraint.cpp.i
 .PHONY : spine-cpp/src/spine/PathConstraint.cpp.i
 
 spine-cpp/src/spine/PathConstraint.s: spine-cpp/src/spine/PathConstraint.cpp.s
@@ -892,7 +892,7 @@ spine-cpp/src/spine/PathConstraint.s: spine-cpp/src/spine/PathConstraint.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/PathConstraint.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraint.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraint.cpp.s
 .PHONY : spine-cpp/src/spine/PathConstraint.cpp.s
 
 spine-cpp/src/spine/PathConstraintData.o: spine-cpp/src/spine/PathConstraintData.cpp.o
@@ -900,7 +900,7 @@ spine-cpp/src/spine/PathConstraintData.o: spine-cpp/src/spine/PathConstraintData
 
 # target to build an object file
 spine-cpp/src/spine/PathConstraintData.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintData.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintData.cpp.o
 .PHONY : spine-cpp/src/spine/PathConstraintData.cpp.o
 
 spine-cpp/src/spine/PathConstraintData.i: spine-cpp/src/spine/PathConstraintData.cpp.i
@@ -908,7 +908,7 @@ spine-cpp/src/spine/PathConstraintData.i: spine-cpp/src/spine/PathConstraintData
 
 # target to preprocess a source file
 spine-cpp/src/spine/PathConstraintData.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintData.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintData.cpp.i
 .PHONY : spine-cpp/src/spine/PathConstraintData.cpp.i
 
 spine-cpp/src/spine/PathConstraintData.s: spine-cpp/src/spine/PathConstraintData.cpp.s
@@ -916,7 +916,7 @@ spine-cpp/src/spine/PathConstraintData.s: spine-cpp/src/spine/PathConstraintData
 
 # target to generate assembly for a file
 spine-cpp/src/spine/PathConstraintData.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintData.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintData.cpp.s
 .PHONY : spine-cpp/src/spine/PathConstraintData.cpp.s
 
 spine-cpp/src/spine/PathConstraintMixTimeline.o: spine-cpp/src/spine/PathConstraintMixTimeline.cpp.o
@@ -924,7 +924,7 @@ spine-cpp/src/spine/PathConstraintMixTimeline.o: spine-cpp/src/spine/PathConstra
 
 # target to build an object file
 spine-cpp/src/spine/PathConstraintMixTimeline.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintMixTimeline.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintMixTimeline.cpp.o
 .PHONY : spine-cpp/src/spine/PathConstraintMixTimeline.cpp.o
 
 spine-cpp/src/spine/PathConstraintMixTimeline.i: spine-cpp/src/spine/PathConstraintMixTimeline.cpp.i
@@ -932,7 +932,7 @@ spine-cpp/src/spine/PathConstraintMixTimeline.i: spine-cpp/src/spine/PathConstra
 
 # target to preprocess a source file
 spine-cpp/src/spine/PathConstraintMixTimeline.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintMixTimeline.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintMixTimeline.cpp.i
 .PHONY : spine-cpp/src/spine/PathConstraintMixTimeline.cpp.i
 
 spine-cpp/src/spine/PathConstraintMixTimeline.s: spine-cpp/src/spine/PathConstraintMixTimeline.cpp.s
@@ -940,7 +940,7 @@ spine-cpp/src/spine/PathConstraintMixTimeline.s: spine-cpp/src/spine/PathConstra
 
 # target to generate assembly for a file
 spine-cpp/src/spine/PathConstraintMixTimeline.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintMixTimeline.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintMixTimeline.cpp.s
 .PHONY : spine-cpp/src/spine/PathConstraintMixTimeline.cpp.s
 
 spine-cpp/src/spine/PathConstraintPositionTimeline.o: spine-cpp/src/spine/PathConstraintPositionTimeline.cpp.o
@@ -948,7 +948,7 @@ spine-cpp/src/spine/PathConstraintPositionTimeline.o: spine-cpp/src/spine/PathCo
 
 # target to build an object file
 spine-cpp/src/spine/PathConstraintPositionTimeline.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintPositionTimeline.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintPositionTimeline.cpp.o
 .PHONY : spine-cpp/src/spine/PathConstraintPositionTimeline.cpp.o
 
 spine-cpp/src/spine/PathConstraintPositionTimeline.i: spine-cpp/src/spine/PathConstraintPositionTimeline.cpp.i
@@ -956,7 +956,7 @@ spine-cpp/src/spine/PathConstraintPositionTimeline.i: spine-cpp/src/spine/PathCo
 
 # target to preprocess a source file
 spine-cpp/src/spine/PathConstraintPositionTimeline.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintPositionTimeline.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintPositionTimeline.cpp.i
 .PHONY : spine-cpp/src/spine/PathConstraintPositionTimeline.cpp.i
 
 spine-cpp/src/spine/PathConstraintPositionTimeline.s: spine-cpp/src/spine/PathConstraintPositionTimeline.cpp.s
@@ -964,7 +964,7 @@ spine-cpp/src/spine/PathConstraintPositionTimeline.s: spine-cpp/src/spine/PathCo
 
 # target to generate assembly for a file
 spine-cpp/src/spine/PathConstraintPositionTimeline.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintPositionTimeline.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintPositionTimeline.cpp.s
 .PHONY : spine-cpp/src/spine/PathConstraintPositionTimeline.cpp.s
 
 spine-cpp/src/spine/PathConstraintSpacingTimeline.o: spine-cpp/src/spine/PathConstraintSpacingTimeline.cpp.o
@@ -972,7 +972,7 @@ spine-cpp/src/spine/PathConstraintSpacingTimeline.o: spine-cpp/src/spine/PathCon
 
 # target to build an object file
 spine-cpp/src/spine/PathConstraintSpacingTimeline.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintSpacingTimeline.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintSpacingTimeline.cpp.o
 .PHONY : spine-cpp/src/spine/PathConstraintSpacingTimeline.cpp.o
 
 spine-cpp/src/spine/PathConstraintSpacingTimeline.i: spine-cpp/src/spine/PathConstraintSpacingTimeline.cpp.i
@@ -980,7 +980,7 @@ spine-cpp/src/spine/PathConstraintSpacingTimeline.i: spine-cpp/src/spine/PathCon
 
 # target to preprocess a source file
 spine-cpp/src/spine/PathConstraintSpacingTimeline.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintSpacingTimeline.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintSpacingTimeline.cpp.i
 .PHONY : spine-cpp/src/spine/PathConstraintSpacingTimeline.cpp.i
 
 spine-cpp/src/spine/PathConstraintSpacingTimeline.s: spine-cpp/src/spine/PathConstraintSpacingTimeline.cpp.s
@@ -988,7 +988,7 @@ spine-cpp/src/spine/PathConstraintSpacingTimeline.s: spine-cpp/src/spine/PathCon
 
 # target to generate assembly for a file
 spine-cpp/src/spine/PathConstraintSpacingTimeline.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintSpacingTimeline.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PathConstraintSpacingTimeline.cpp.s
 .PHONY : spine-cpp/src/spine/PathConstraintSpacingTimeline.cpp.s
 
 spine-cpp/src/spine/PointAttachment.o: spine-cpp/src/spine/PointAttachment.cpp.o
@@ -996,7 +996,7 @@ spine-cpp/src/spine/PointAttachment.o: spine-cpp/src/spine/PointAttachment.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/PointAttachment.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PointAttachment.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PointAttachment.cpp.o
 .PHONY : spine-cpp/src/spine/PointAttachment.cpp.o
 
 spine-cpp/src/spine/PointAttachment.i: spine-cpp/src/spine/PointAttachment.cpp.i
@@ -1004,7 +1004,7 @@ spine-cpp/src/spine/PointAttachment.i: spine-cpp/src/spine/PointAttachment.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/PointAttachment.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PointAttachment.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PointAttachment.cpp.i
 .PHONY : spine-cpp/src/spine/PointAttachment.cpp.i
 
 spine-cpp/src/spine/PointAttachment.s: spine-cpp/src/spine/PointAttachment.cpp.s
@@ -1012,7 +1012,7 @@ spine-cpp/src/spine/PointAttachment.s: spine-cpp/src/spine/PointAttachment.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/PointAttachment.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PointAttachment.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/PointAttachment.cpp.s
 .PHONY : spine-cpp/src/spine/PointAttachment.cpp.s
 
 spine-cpp/src/spine/RTTI.o: spine-cpp/src/spine/RTTI.cpp.o
@@ -1020,7 +1020,7 @@ spine-cpp/src/spine/RTTI.o: spine-cpp/src/spine/RTTI.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/RTTI.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RTTI.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RTTI.cpp.o
 .PHONY : spine-cpp/src/spine/RTTI.cpp.o
 
 spine-cpp/src/spine/RTTI.i: spine-cpp/src/spine/RTTI.cpp.i
@@ -1028,7 +1028,7 @@ spine-cpp/src/spine/RTTI.i: spine-cpp/src/spine/RTTI.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/RTTI.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RTTI.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RTTI.cpp.i
 .PHONY : spine-cpp/src/spine/RTTI.cpp.i
 
 spine-cpp/src/spine/RTTI.s: spine-cpp/src/spine/RTTI.cpp.s
@@ -1036,7 +1036,7 @@ spine-cpp/src/spine/RTTI.s: spine-cpp/src/spine/RTTI.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/RTTI.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RTTI.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RTTI.cpp.s
 .PHONY : spine-cpp/src/spine/RTTI.cpp.s
 
 spine-cpp/src/spine/RegionAttachment.o: spine-cpp/src/spine/RegionAttachment.cpp.o
@@ -1044,7 +1044,7 @@ spine-cpp/src/spine/RegionAttachment.o: spine-cpp/src/spine/RegionAttachment.cpp
 
 # target to build an object file
 spine-cpp/src/spine/RegionAttachment.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RegionAttachment.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RegionAttachment.cpp.o
 .PHONY : spine-cpp/src/spine/RegionAttachment.cpp.o
 
 spine-cpp/src/spine/RegionAttachment.i: spine-cpp/src/spine/RegionAttachment.cpp.i
@@ -1052,7 +1052,7 @@ spine-cpp/src/spine/RegionAttachment.i: spine-cpp/src/spine/RegionAttachment.cpp
 
 # target to preprocess a source file
 spine-cpp/src/spine/RegionAttachment.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RegionAttachment.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RegionAttachment.cpp.i
 .PHONY : spine-cpp/src/spine/RegionAttachment.cpp.i
 
 spine-cpp/src/spine/RegionAttachment.s: spine-cpp/src/spine/RegionAttachment.cpp.s
@@ -1060,7 +1060,7 @@ spine-cpp/src/spine/RegionAttachment.s: spine-cpp/src/spine/RegionAttachment.cpp
 
 # target to generate assembly for a file
 spine-cpp/src/spine/RegionAttachment.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RegionAttachment.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RegionAttachment.cpp.s
 .PHONY : spine-cpp/src/spine/RegionAttachment.cpp.s
 
 spine-cpp/src/spine/RotateTimeline.o: spine-cpp/src/spine/RotateTimeline.cpp.o
@@ -1068,7 +1068,7 @@ spine-cpp/src/spine/RotateTimeline.o: spine-cpp/src/spine/RotateTimeline.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/RotateTimeline.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RotateTimeline.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RotateTimeline.cpp.o
 .PHONY : spine-cpp/src/spine/RotateTimeline.cpp.o
 
 spine-cpp/src/spine/RotateTimeline.i: spine-cpp/src/spine/RotateTimeline.cpp.i
@@ -1076,7 +1076,7 @@ spine-cpp/src/spine/RotateTimeline.i: spine-cpp/src/spine/RotateTimeline.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/RotateTimeline.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RotateTimeline.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RotateTimeline.cpp.i
 .PHONY : spine-cpp/src/spine/RotateTimeline.cpp.i
 
 spine-cpp/src/spine/RotateTimeline.s: spine-cpp/src/spine/RotateTimeline.cpp.s
@@ -1084,7 +1084,7 @@ spine-cpp/src/spine/RotateTimeline.s: spine-cpp/src/spine/RotateTimeline.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/RotateTimeline.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RotateTimeline.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/RotateTimeline.cpp.s
 .PHONY : spine-cpp/src/spine/RotateTimeline.cpp.s
 
 spine-cpp/src/spine/ScaleTimeline.o: spine-cpp/src/spine/ScaleTimeline.cpp.o
@@ -1092,7 +1092,7 @@ spine-cpp/src/spine/ScaleTimeline.o: spine-cpp/src/spine/ScaleTimeline.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/ScaleTimeline.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ScaleTimeline.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ScaleTimeline.cpp.o
 .PHONY : spine-cpp/src/spine/ScaleTimeline.cpp.o
 
 spine-cpp/src/spine/ScaleTimeline.i: spine-cpp/src/spine/ScaleTimeline.cpp.i
@@ -1100,7 +1100,7 @@ spine-cpp/src/spine/ScaleTimeline.i: spine-cpp/src/spine/ScaleTimeline.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/ScaleTimeline.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ScaleTimeline.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ScaleTimeline.cpp.i
 .PHONY : spine-cpp/src/spine/ScaleTimeline.cpp.i
 
 spine-cpp/src/spine/ScaleTimeline.s: spine-cpp/src/spine/ScaleTimeline.cpp.s
@@ -1108,7 +1108,7 @@ spine-cpp/src/spine/ScaleTimeline.s: spine-cpp/src/spine/ScaleTimeline.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/ScaleTimeline.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ScaleTimeline.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ScaleTimeline.cpp.s
 .PHONY : spine-cpp/src/spine/ScaleTimeline.cpp.s
 
 spine-cpp/src/spine/ShearTimeline.o: spine-cpp/src/spine/ShearTimeline.cpp.o
@@ -1116,7 +1116,7 @@ spine-cpp/src/spine/ShearTimeline.o: spine-cpp/src/spine/ShearTimeline.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/ShearTimeline.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ShearTimeline.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ShearTimeline.cpp.o
 .PHONY : spine-cpp/src/spine/ShearTimeline.cpp.o
 
 spine-cpp/src/spine/ShearTimeline.i: spine-cpp/src/spine/ShearTimeline.cpp.i
@@ -1124,7 +1124,7 @@ spine-cpp/src/spine/ShearTimeline.i: spine-cpp/src/spine/ShearTimeline.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/ShearTimeline.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ShearTimeline.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ShearTimeline.cpp.i
 .PHONY : spine-cpp/src/spine/ShearTimeline.cpp.i
 
 spine-cpp/src/spine/ShearTimeline.s: spine-cpp/src/spine/ShearTimeline.cpp.s
@@ -1132,7 +1132,7 @@ spine-cpp/src/spine/ShearTimeline.s: spine-cpp/src/spine/ShearTimeline.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/ShearTimeline.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ShearTimeline.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/ShearTimeline.cpp.s
 .PHONY : spine-cpp/src/spine/ShearTimeline.cpp.s
 
 spine-cpp/src/spine/Skeleton.o: spine-cpp/src/spine/Skeleton.cpp.o
@@ -1140,7 +1140,7 @@ spine-cpp/src/spine/Skeleton.o: spine-cpp/src/spine/Skeleton.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/Skeleton.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Skeleton.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Skeleton.cpp.o
 .PHONY : spine-cpp/src/spine/Skeleton.cpp.o
 
 spine-cpp/src/spine/Skeleton.i: spine-cpp/src/spine/Skeleton.cpp.i
@@ -1148,7 +1148,7 @@ spine-cpp/src/spine/Skeleton.i: spine-cpp/src/spine/Skeleton.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/Skeleton.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Skeleton.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Skeleton.cpp.i
 .PHONY : spine-cpp/src/spine/Skeleton.cpp.i
 
 spine-cpp/src/spine/Skeleton.s: spine-cpp/src/spine/Skeleton.cpp.s
@@ -1156,7 +1156,7 @@ spine-cpp/src/spine/Skeleton.s: spine-cpp/src/spine/Skeleton.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/Skeleton.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Skeleton.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Skeleton.cpp.s
 .PHONY : spine-cpp/src/spine/Skeleton.cpp.s
 
 spine-cpp/src/spine/SkeletonBinary.o: spine-cpp/src/spine/SkeletonBinary.cpp.o
@@ -1164,7 +1164,7 @@ spine-cpp/src/spine/SkeletonBinary.o: spine-cpp/src/spine/SkeletonBinary.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/SkeletonBinary.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonBinary.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonBinary.cpp.o
 .PHONY : spine-cpp/src/spine/SkeletonBinary.cpp.o
 
 spine-cpp/src/spine/SkeletonBinary.i: spine-cpp/src/spine/SkeletonBinary.cpp.i
@@ -1172,7 +1172,7 @@ spine-cpp/src/spine/SkeletonBinary.i: spine-cpp/src/spine/SkeletonBinary.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/SkeletonBinary.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonBinary.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonBinary.cpp.i
 .PHONY : spine-cpp/src/spine/SkeletonBinary.cpp.i
 
 spine-cpp/src/spine/SkeletonBinary.s: spine-cpp/src/spine/SkeletonBinary.cpp.s
@@ -1180,7 +1180,7 @@ spine-cpp/src/spine/SkeletonBinary.s: spine-cpp/src/spine/SkeletonBinary.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/SkeletonBinary.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonBinary.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonBinary.cpp.s
 .PHONY : spine-cpp/src/spine/SkeletonBinary.cpp.s
 
 spine-cpp/src/spine/SkeletonBounds.o: spine-cpp/src/spine/SkeletonBounds.cpp.o
@@ -1188,7 +1188,7 @@ spine-cpp/src/spine/SkeletonBounds.o: spine-cpp/src/spine/SkeletonBounds.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/SkeletonBounds.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonBounds.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonBounds.cpp.o
 .PHONY : spine-cpp/src/spine/SkeletonBounds.cpp.o
 
 spine-cpp/src/spine/SkeletonBounds.i: spine-cpp/src/spine/SkeletonBounds.cpp.i
@@ -1196,7 +1196,7 @@ spine-cpp/src/spine/SkeletonBounds.i: spine-cpp/src/spine/SkeletonBounds.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/SkeletonBounds.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonBounds.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonBounds.cpp.i
 .PHONY : spine-cpp/src/spine/SkeletonBounds.cpp.i
 
 spine-cpp/src/spine/SkeletonBounds.s: spine-cpp/src/spine/SkeletonBounds.cpp.s
@@ -1204,7 +1204,7 @@ spine-cpp/src/spine/SkeletonBounds.s: spine-cpp/src/spine/SkeletonBounds.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/SkeletonBounds.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonBounds.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonBounds.cpp.s
 .PHONY : spine-cpp/src/spine/SkeletonBounds.cpp.s
 
 spine-cpp/src/spine/SkeletonClipping.o: spine-cpp/src/spine/SkeletonClipping.cpp.o
@@ -1212,7 +1212,7 @@ spine-cpp/src/spine/SkeletonClipping.o: spine-cpp/src/spine/SkeletonClipping.cpp
 
 # target to build an object file
 spine-cpp/src/spine/SkeletonClipping.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonClipping.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonClipping.cpp.o
 .PHONY : spine-cpp/src/spine/SkeletonClipping.cpp.o
 
 spine-cpp/src/spine/SkeletonClipping.i: spine-cpp/src/spine/SkeletonClipping.cpp.i
@@ -1220,7 +1220,7 @@ spine-cpp/src/spine/SkeletonClipping.i: spine-cpp/src/spine/SkeletonClipping.cpp
 
 # target to preprocess a source file
 spine-cpp/src/spine/SkeletonClipping.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonClipping.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonClipping.cpp.i
 .PHONY : spine-cpp/src/spine/SkeletonClipping.cpp.i
 
 spine-cpp/src/spine/SkeletonClipping.s: spine-cpp/src/spine/SkeletonClipping.cpp.s
@@ -1228,7 +1228,7 @@ spine-cpp/src/spine/SkeletonClipping.s: spine-cpp/src/spine/SkeletonClipping.cpp
 
 # target to generate assembly for a file
 spine-cpp/src/spine/SkeletonClipping.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonClipping.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonClipping.cpp.s
 .PHONY : spine-cpp/src/spine/SkeletonClipping.cpp.s
 
 spine-cpp/src/spine/SkeletonData.o: spine-cpp/src/spine/SkeletonData.cpp.o
@@ -1236,7 +1236,7 @@ spine-cpp/src/spine/SkeletonData.o: spine-cpp/src/spine/SkeletonData.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/SkeletonData.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonData.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonData.cpp.o
 .PHONY : spine-cpp/src/spine/SkeletonData.cpp.o
 
 spine-cpp/src/spine/SkeletonData.i: spine-cpp/src/spine/SkeletonData.cpp.i
@@ -1244,7 +1244,7 @@ spine-cpp/src/spine/SkeletonData.i: spine-cpp/src/spine/SkeletonData.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/SkeletonData.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonData.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonData.cpp.i
 .PHONY : spine-cpp/src/spine/SkeletonData.cpp.i
 
 spine-cpp/src/spine/SkeletonData.s: spine-cpp/src/spine/SkeletonData.cpp.s
@@ -1252,7 +1252,7 @@ spine-cpp/src/spine/SkeletonData.s: spine-cpp/src/spine/SkeletonData.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/SkeletonData.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonData.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonData.cpp.s
 .PHONY : spine-cpp/src/spine/SkeletonData.cpp.s
 
 spine-cpp/src/spine/SkeletonJson.o: spine-cpp/src/spine/SkeletonJson.cpp.o
@@ -1260,7 +1260,7 @@ spine-cpp/src/spine/SkeletonJson.o: spine-cpp/src/spine/SkeletonJson.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/SkeletonJson.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonJson.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonJson.cpp.o
 .PHONY : spine-cpp/src/spine/SkeletonJson.cpp.o
 
 spine-cpp/src/spine/SkeletonJson.i: spine-cpp/src/spine/SkeletonJson.cpp.i
@@ -1268,7 +1268,7 @@ spine-cpp/src/spine/SkeletonJson.i: spine-cpp/src/spine/SkeletonJson.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/SkeletonJson.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonJson.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonJson.cpp.i
 .PHONY : spine-cpp/src/spine/SkeletonJson.cpp.i
 
 spine-cpp/src/spine/SkeletonJson.s: spine-cpp/src/spine/SkeletonJson.cpp.s
@@ -1276,7 +1276,7 @@ spine-cpp/src/spine/SkeletonJson.s: spine-cpp/src/spine/SkeletonJson.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/SkeletonJson.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonJson.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SkeletonJson.cpp.s
 .PHONY : spine-cpp/src/spine/SkeletonJson.cpp.s
 
 spine-cpp/src/spine/Skin.o: spine-cpp/src/spine/Skin.cpp.o
@@ -1284,7 +1284,7 @@ spine-cpp/src/spine/Skin.o: spine-cpp/src/spine/Skin.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/Skin.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Skin.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Skin.cpp.o
 .PHONY : spine-cpp/src/spine/Skin.cpp.o
 
 spine-cpp/src/spine/Skin.i: spine-cpp/src/spine/Skin.cpp.i
@@ -1292,7 +1292,7 @@ spine-cpp/src/spine/Skin.i: spine-cpp/src/spine/Skin.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/Skin.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Skin.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Skin.cpp.i
 .PHONY : spine-cpp/src/spine/Skin.cpp.i
 
 spine-cpp/src/spine/Skin.s: spine-cpp/src/spine/Skin.cpp.s
@@ -1300,7 +1300,7 @@ spine-cpp/src/spine/Skin.s: spine-cpp/src/spine/Skin.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/Skin.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Skin.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Skin.cpp.s
 .PHONY : spine-cpp/src/spine/Skin.cpp.s
 
 spine-cpp/src/spine/Slot.o: spine-cpp/src/spine/Slot.cpp.o
@@ -1308,7 +1308,7 @@ spine-cpp/src/spine/Slot.o: spine-cpp/src/spine/Slot.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/Slot.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Slot.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Slot.cpp.o
 .PHONY : spine-cpp/src/spine/Slot.cpp.o
 
 spine-cpp/src/spine/Slot.i: spine-cpp/src/spine/Slot.cpp.i
@@ -1316,7 +1316,7 @@ spine-cpp/src/spine/Slot.i: spine-cpp/src/spine/Slot.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/Slot.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Slot.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Slot.cpp.i
 .PHONY : spine-cpp/src/spine/Slot.cpp.i
 
 spine-cpp/src/spine/Slot.s: spine-cpp/src/spine/Slot.cpp.s
@@ -1324,7 +1324,7 @@ spine-cpp/src/spine/Slot.s: spine-cpp/src/spine/Slot.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/Slot.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Slot.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Slot.cpp.s
 .PHONY : spine-cpp/src/spine/Slot.cpp.s
 
 spine-cpp/src/spine/SlotData.o: spine-cpp/src/spine/SlotData.cpp.o
@@ -1332,7 +1332,7 @@ spine-cpp/src/spine/SlotData.o: spine-cpp/src/spine/SlotData.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/SlotData.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SlotData.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SlotData.cpp.o
 .PHONY : spine-cpp/src/spine/SlotData.cpp.o
 
 spine-cpp/src/spine/SlotData.i: spine-cpp/src/spine/SlotData.cpp.i
@@ -1340,7 +1340,7 @@ spine-cpp/src/spine/SlotData.i: spine-cpp/src/spine/SlotData.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/SlotData.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SlotData.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SlotData.cpp.i
 .PHONY : spine-cpp/src/spine/SlotData.cpp.i
 
 spine-cpp/src/spine/SlotData.s: spine-cpp/src/spine/SlotData.cpp.s
@@ -1348,7 +1348,7 @@ spine-cpp/src/spine/SlotData.s: spine-cpp/src/spine/SlotData.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/SlotData.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SlotData.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SlotData.cpp.s
 .PHONY : spine-cpp/src/spine/SlotData.cpp.s
 
 spine-cpp/src/spine/SpineObject.o: spine-cpp/src/spine/SpineObject.cpp.o
@@ -1356,7 +1356,7 @@ spine-cpp/src/spine/SpineObject.o: spine-cpp/src/spine/SpineObject.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/SpineObject.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SpineObject.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SpineObject.cpp.o
 .PHONY : spine-cpp/src/spine/SpineObject.cpp.o
 
 spine-cpp/src/spine/SpineObject.i: spine-cpp/src/spine/SpineObject.cpp.i
@@ -1364,7 +1364,7 @@ spine-cpp/src/spine/SpineObject.i: spine-cpp/src/spine/SpineObject.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/SpineObject.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SpineObject.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SpineObject.cpp.i
 .PHONY : spine-cpp/src/spine/SpineObject.cpp.i
 
 spine-cpp/src/spine/SpineObject.s: spine-cpp/src/spine/SpineObject.cpp.s
@@ -1372,7 +1372,7 @@ spine-cpp/src/spine/SpineObject.s: spine-cpp/src/spine/SpineObject.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/SpineObject.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SpineObject.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/SpineObject.cpp.s
 .PHONY : spine-cpp/src/spine/SpineObject.cpp.s
 
 spine-cpp/src/spine/TextureLoader.o: spine-cpp/src/spine/TextureLoader.cpp.o
@@ -1380,7 +1380,7 @@ spine-cpp/src/spine/TextureLoader.o: spine-cpp/src/spine/TextureLoader.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/TextureLoader.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TextureLoader.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TextureLoader.cpp.o
 .PHONY : spine-cpp/src/spine/TextureLoader.cpp.o
 
 spine-cpp/src/spine/TextureLoader.i: spine-cpp/src/spine/TextureLoader.cpp.i
@@ -1388,7 +1388,7 @@ spine-cpp/src/spine/TextureLoader.i: spine-cpp/src/spine/TextureLoader.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/TextureLoader.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TextureLoader.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TextureLoader.cpp.i
 .PHONY : spine-cpp/src/spine/TextureLoader.cpp.i
 
 spine-cpp/src/spine/TextureLoader.s: spine-cpp/src/spine/TextureLoader.cpp.s
@@ -1396,7 +1396,7 @@ spine-cpp/src/spine/TextureLoader.s: spine-cpp/src/spine/TextureLoader.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/TextureLoader.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TextureLoader.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TextureLoader.cpp.s
 .PHONY : spine-cpp/src/spine/TextureLoader.cpp.s
 
 spine-cpp/src/spine/Timeline.o: spine-cpp/src/spine/Timeline.cpp.o
@@ -1404,7 +1404,7 @@ spine-cpp/src/spine/Timeline.o: spine-cpp/src/spine/Timeline.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/Timeline.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Timeline.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Timeline.cpp.o
 .PHONY : spine-cpp/src/spine/Timeline.cpp.o
 
 spine-cpp/src/spine/Timeline.i: spine-cpp/src/spine/Timeline.cpp.i
@@ -1412,7 +1412,7 @@ spine-cpp/src/spine/Timeline.i: spine-cpp/src/spine/Timeline.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/Timeline.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Timeline.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Timeline.cpp.i
 .PHONY : spine-cpp/src/spine/Timeline.cpp.i
 
 spine-cpp/src/spine/Timeline.s: spine-cpp/src/spine/Timeline.cpp.s
@@ -1420,7 +1420,7 @@ spine-cpp/src/spine/Timeline.s: spine-cpp/src/spine/Timeline.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/Timeline.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Timeline.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Timeline.cpp.s
 .PHONY : spine-cpp/src/spine/Timeline.cpp.s
 
 spine-cpp/src/spine/TransformConstraint.o: spine-cpp/src/spine/TransformConstraint.cpp.o
@@ -1428,7 +1428,7 @@ spine-cpp/src/spine/TransformConstraint.o: spine-cpp/src/spine/TransformConstrai
 
 # target to build an object file
 spine-cpp/src/spine/TransformConstraint.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraint.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraint.cpp.o
 .PHONY : spine-cpp/src/spine/TransformConstraint.cpp.o
 
 spine-cpp/src/spine/TransformConstraint.i: spine-cpp/src/spine/TransformConstraint.cpp.i
@@ -1436,7 +1436,7 @@ spine-cpp/src/spine/TransformConstraint.i: spine-cpp/src/spine/TransformConstrai
 
 # target to preprocess a source file
 spine-cpp/src/spine/TransformConstraint.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraint.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraint.cpp.i
 .PHONY : spine-cpp/src/spine/TransformConstraint.cpp.i
 
 spine-cpp/src/spine/TransformConstraint.s: spine-cpp/src/spine/TransformConstraint.cpp.s
@@ -1444,7 +1444,7 @@ spine-cpp/src/spine/TransformConstraint.s: spine-cpp/src/spine/TransformConstrai
 
 # target to generate assembly for a file
 spine-cpp/src/spine/TransformConstraint.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraint.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraint.cpp.s
 .PHONY : spine-cpp/src/spine/TransformConstraint.cpp.s
 
 spine-cpp/src/spine/TransformConstraintData.o: spine-cpp/src/spine/TransformConstraintData.cpp.o
@@ -1452,7 +1452,7 @@ spine-cpp/src/spine/TransformConstraintData.o: spine-cpp/src/spine/TransformCons
 
 # target to build an object file
 spine-cpp/src/spine/TransformConstraintData.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraintData.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraintData.cpp.o
 .PHONY : spine-cpp/src/spine/TransformConstraintData.cpp.o
 
 spine-cpp/src/spine/TransformConstraintData.i: spine-cpp/src/spine/TransformConstraintData.cpp.i
@@ -1460,7 +1460,7 @@ spine-cpp/src/spine/TransformConstraintData.i: spine-cpp/src/spine/TransformCons
 
 # target to preprocess a source file
 spine-cpp/src/spine/TransformConstraintData.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraintData.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraintData.cpp.i
 .PHONY : spine-cpp/src/spine/TransformConstraintData.cpp.i
 
 spine-cpp/src/spine/TransformConstraintData.s: spine-cpp/src/spine/TransformConstraintData.cpp.s
@@ -1468,7 +1468,7 @@ spine-cpp/src/spine/TransformConstraintData.s: spine-cpp/src/spine/TransformCons
 
 # target to generate assembly for a file
 spine-cpp/src/spine/TransformConstraintData.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraintData.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraintData.cpp.s
 .PHONY : spine-cpp/src/spine/TransformConstraintData.cpp.s
 
 spine-cpp/src/spine/TransformConstraintTimeline.o: spine-cpp/src/spine/TransformConstraintTimeline.cpp.o
@@ -1476,7 +1476,7 @@ spine-cpp/src/spine/TransformConstraintTimeline.o: spine-cpp/src/spine/Transform
 
 # target to build an object file
 spine-cpp/src/spine/TransformConstraintTimeline.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraintTimeline.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraintTimeline.cpp.o
 .PHONY : spine-cpp/src/spine/TransformConstraintTimeline.cpp.o
 
 spine-cpp/src/spine/TransformConstraintTimeline.i: spine-cpp/src/spine/TransformConstraintTimeline.cpp.i
@@ -1484,7 +1484,7 @@ spine-cpp/src/spine/TransformConstraintTimeline.i: spine-cpp/src/spine/Transform
 
 # target to preprocess a source file
 spine-cpp/src/spine/TransformConstraintTimeline.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraintTimeline.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraintTimeline.cpp.i
 .PHONY : spine-cpp/src/spine/TransformConstraintTimeline.cpp.i
 
 spine-cpp/src/spine/TransformConstraintTimeline.s: spine-cpp/src/spine/TransformConstraintTimeline.cpp.s
@@ -1492,7 +1492,7 @@ spine-cpp/src/spine/TransformConstraintTimeline.s: spine-cpp/src/spine/Transform
 
 # target to generate assembly for a file
 spine-cpp/src/spine/TransformConstraintTimeline.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraintTimeline.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TransformConstraintTimeline.cpp.s
 .PHONY : spine-cpp/src/spine/TransformConstraintTimeline.cpp.s
 
 spine-cpp/src/spine/TranslateTimeline.o: spine-cpp/src/spine/TranslateTimeline.cpp.o
@@ -1500,7 +1500,7 @@ spine-cpp/src/spine/TranslateTimeline.o: spine-cpp/src/spine/TranslateTimeline.c
 
 # target to build an object file
 spine-cpp/src/spine/TranslateTimeline.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TranslateTimeline.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TranslateTimeline.cpp.o
 .PHONY : spine-cpp/src/spine/TranslateTimeline.cpp.o
 
 spine-cpp/src/spine/TranslateTimeline.i: spine-cpp/src/spine/TranslateTimeline.cpp.i
@@ -1508,7 +1508,7 @@ spine-cpp/src/spine/TranslateTimeline.i: spine-cpp/src/spine/TranslateTimeline.c
 
 # target to preprocess a source file
 spine-cpp/src/spine/TranslateTimeline.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TranslateTimeline.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TranslateTimeline.cpp.i
 .PHONY : spine-cpp/src/spine/TranslateTimeline.cpp.i
 
 spine-cpp/src/spine/TranslateTimeline.s: spine-cpp/src/spine/TranslateTimeline.cpp.s
@@ -1516,7 +1516,7 @@ spine-cpp/src/spine/TranslateTimeline.s: spine-cpp/src/spine/TranslateTimeline.c
 
 # target to generate assembly for a file
 spine-cpp/src/spine/TranslateTimeline.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TranslateTimeline.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TranslateTimeline.cpp.s
 .PHONY : spine-cpp/src/spine/TranslateTimeline.cpp.s
 
 spine-cpp/src/spine/Triangulator.o: spine-cpp/src/spine/Triangulator.cpp.o
@@ -1524,7 +1524,7 @@ spine-cpp/src/spine/Triangulator.o: spine-cpp/src/spine/Triangulator.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/Triangulator.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Triangulator.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Triangulator.cpp.o
 .PHONY : spine-cpp/src/spine/Triangulator.cpp.o
 
 spine-cpp/src/spine/Triangulator.i: spine-cpp/src/spine/Triangulator.cpp.i
@@ -1532,7 +1532,7 @@ spine-cpp/src/spine/Triangulator.i: spine-cpp/src/spine/Triangulator.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/Triangulator.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Triangulator.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Triangulator.cpp.i
 .PHONY : spine-cpp/src/spine/Triangulator.cpp.i
 
 spine-cpp/src/spine/Triangulator.s: spine-cpp/src/spine/Triangulator.cpp.s
@@ -1540,7 +1540,7 @@ spine-cpp/src/spine/Triangulator.s: spine-cpp/src/spine/Triangulator.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/Triangulator.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Triangulator.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Triangulator.cpp.s
 .PHONY : spine-cpp/src/spine/Triangulator.cpp.s
 
 spine-cpp/src/spine/TwoColorTimeline.o: spine-cpp/src/spine/TwoColorTimeline.cpp.o
@@ -1548,7 +1548,7 @@ spine-cpp/src/spine/TwoColorTimeline.o: spine-cpp/src/spine/TwoColorTimeline.cpp
 
 # target to build an object file
 spine-cpp/src/spine/TwoColorTimeline.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TwoColorTimeline.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TwoColorTimeline.cpp.o
 .PHONY : spine-cpp/src/spine/TwoColorTimeline.cpp.o
 
 spine-cpp/src/spine/TwoColorTimeline.i: spine-cpp/src/spine/TwoColorTimeline.cpp.i
@@ -1556,7 +1556,7 @@ spine-cpp/src/spine/TwoColorTimeline.i: spine-cpp/src/spine/TwoColorTimeline.cpp
 
 # target to preprocess a source file
 spine-cpp/src/spine/TwoColorTimeline.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TwoColorTimeline.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TwoColorTimeline.cpp.i
 .PHONY : spine-cpp/src/spine/TwoColorTimeline.cpp.i
 
 spine-cpp/src/spine/TwoColorTimeline.s: spine-cpp/src/spine/TwoColorTimeline.cpp.s
@@ -1564,7 +1564,7 @@ spine-cpp/src/spine/TwoColorTimeline.s: spine-cpp/src/spine/TwoColorTimeline.cpp
 
 # target to generate assembly for a file
 spine-cpp/src/spine/TwoColorTimeline.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TwoColorTimeline.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/TwoColorTimeline.cpp.s
 .PHONY : spine-cpp/src/spine/TwoColorTimeline.cpp.s
 
 spine-cpp/src/spine/Updatable.o: spine-cpp/src/spine/Updatable.cpp.o
@@ -1572,7 +1572,7 @@ spine-cpp/src/spine/Updatable.o: spine-cpp/src/spine/Updatable.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/Updatable.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Updatable.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Updatable.cpp.o
 .PHONY : spine-cpp/src/spine/Updatable.cpp.o
 
 spine-cpp/src/spine/Updatable.i: spine-cpp/src/spine/Updatable.cpp.i
@@ -1580,7 +1580,7 @@ spine-cpp/src/spine/Updatable.i: spine-cpp/src/spine/Updatable.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/Updatable.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Updatable.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Updatable.cpp.i
 .PHONY : spine-cpp/src/spine/Updatable.cpp.i
 
 spine-cpp/src/spine/Updatable.s: spine-cpp/src/spine/Updatable.cpp.s
@@ -1588,7 +1588,7 @@ spine-cpp/src/spine/Updatable.s: spine-cpp/src/spine/Updatable.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/Updatable.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Updatable.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/Updatable.cpp.s
 .PHONY : spine-cpp/src/spine/Updatable.cpp.s
 
 spine-cpp/src/spine/VertexAttachment.o: spine-cpp/src/spine/VertexAttachment.cpp.o
@@ -1596,7 +1596,7 @@ spine-cpp/src/spine/VertexAttachment.o: spine-cpp/src/spine/VertexAttachment.cpp
 
 # target to build an object file
 spine-cpp/src/spine/VertexAttachment.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/VertexAttachment.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/VertexAttachment.cpp.o
 .PHONY : spine-cpp/src/spine/VertexAttachment.cpp.o
 
 spine-cpp/src/spine/VertexAttachment.i: spine-cpp/src/spine/VertexAttachment.cpp.i
@@ -1604,7 +1604,7 @@ spine-cpp/src/spine/VertexAttachment.i: spine-cpp/src/spine/VertexAttachment.cpp
 
 # target to preprocess a source file
 spine-cpp/src/spine/VertexAttachment.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/VertexAttachment.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/VertexAttachment.cpp.i
 .PHONY : spine-cpp/src/spine/VertexAttachment.cpp.i
 
 spine-cpp/src/spine/VertexAttachment.s: spine-cpp/src/spine/VertexAttachment.cpp.s
@@ -1612,7 +1612,7 @@ spine-cpp/src/spine/VertexAttachment.s: spine-cpp/src/spine/VertexAttachment.cpp
 
 # target to generate assembly for a file
 spine-cpp/src/spine/VertexAttachment.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/VertexAttachment.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/VertexAttachment.cpp.s
 .PHONY : spine-cpp/src/spine/VertexAttachment.cpp.s
 
 spine-cpp/src/spine/VertexEffect.o: spine-cpp/src/spine/VertexEffect.cpp.o
@@ -1620,7 +1620,7 @@ spine-cpp/src/spine/VertexEffect.o: spine-cpp/src/spine/VertexEffect.cpp.o
 
 # target to build an object file
 spine-cpp/src/spine/VertexEffect.cpp.o:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/VertexEffect.cpp.o
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/VertexEffect.cpp.o
 .PHONY : spine-cpp/src/spine/VertexEffect.cpp.o
 
 spine-cpp/src/spine/VertexEffect.i: spine-cpp/src/spine/VertexEffect.cpp.i
@@ -1628,7 +1628,7 @@ spine-cpp/src/spine/VertexEffect.i: spine-cpp/src/spine/VertexEffect.cpp.i
 
 # target to preprocess a source file
 spine-cpp/src/spine/VertexEffect.cpp.i:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/VertexEffect.cpp.i
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/VertexEffect.cpp.i
 .PHONY : spine-cpp/src/spine/VertexEffect.cpp.i
 
 spine-cpp/src/spine/VertexEffect.s: spine-cpp/src/spine/VertexEffect.cpp.s
@@ -1636,7 +1636,7 @@ spine-cpp/src/spine/VertexEffect.s: spine-cpp/src/spine/VertexEffect.cpp.s
 
 # target to generate assembly for a file
 spine-cpp/src/spine/VertexEffect.cpp.s:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/VertexEffect.cpp.s
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/spine-cpp/src/spine/VertexEffect.cpp.s
 .PHONY : spine-cpp/src/spine/VertexEffect.cpp.s
 
 # Help Target
@@ -1846,6 +1846,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

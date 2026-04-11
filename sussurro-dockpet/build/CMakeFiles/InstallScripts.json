@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/Lithos/Documents/GitHub/Ark-DeskPet/sussurro-dockpet/build/cmake_install.cmake",
+		"/Users/Lithos/Documents/GitHub/Ark-DeskPet/sussurro-dockpet/build/spine-cpp-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

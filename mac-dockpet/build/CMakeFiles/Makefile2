@@ -54,10 +54,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Lithos/Documents/GitHub/spine/mac-dockpet
+CMAKE_SOURCE_DIR = /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build
+CMAKE_BINARY_DIR = /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -107,14 +107,14 @@ spine-cpp-build/clean: spine-cpp-build/CMakeFiles/spine-cpp.dir/clean
 CMakeFiles/RosMonDockPet.dir/all: spine-cpp-build/CMakeFiles/spine-cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RosMonDockPet.dir/build.make CMakeFiles/RosMonDockPet.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RosMonDockPet.dir/build.make CMakeFiles/RosMonDockPet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/CMakeFiles --progress-num=1,2,3 "Built target RosMonDockPet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/CMakeFiles --progress-num=1,2,3 "Built target RosMonDockPet"
 .PHONY : CMakeFiles/RosMonDockPet.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RosMonDockPet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/CMakeFiles 65
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RosMonDockPet.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/CMakeFiles 0
 .PHONY : CMakeFiles/RosMonDockPet.dir/rule
 
 # Convenience name for target.
@@ -124,7 +124,7 @@ RosMonDockPet: CMakeFiles/RosMonDockPet.dir/rule
 # codegen rule for target.
 CMakeFiles/RosMonDockPet.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RosMonDockPet.dir/build.make CMakeFiles/RosMonDockPet.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target RosMonDockPet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target RosMonDockPet"
 .PHONY : CMakeFiles/RosMonDockPet.dir/codegen
 
 # clean rule for target.
@@ -139,14 +139,14 @@ CMakeFiles/RosMonDockPet.dir/clean:
 spine-cpp-build/CMakeFiles/spine-cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Built target spine-cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Built target spine-cpp"
 .PHONY : spine-cpp-build/CMakeFiles/spine-cpp.dir/all
 
 # Build rule for subdir invocation for target.
 spine-cpp-build/CMakeFiles/spine-cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/CMakeFiles 62
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spine-cpp-build/CMakeFiles/spine-cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/CMakeFiles 0
 .PHONY : spine-cpp-build/CMakeFiles/spine-cpp.dir/rule
 
 # Convenience name for target.
@@ -156,7 +156,7 @@ spine-cpp: spine-cpp-build/CMakeFiles/spine-cpp.dir/rule
 # codegen rule for target.
 spine-cpp-build/CMakeFiles/spine-cpp.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f spine-cpp-build/CMakeFiles/spine-cpp.dir/build.make spine-cpp-build/CMakeFiles/spine-cpp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lithos/Documents/GitHub/spine/mac-dockpet/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Finished codegen for target spine-cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Finished codegen for target spine-cpp"
 .PHONY : spine-cpp-build/CMakeFiles/spine-cpp.dir/codegen
 
 # clean rule for target.

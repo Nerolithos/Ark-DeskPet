@@ -5,7 +5,7 @@
 # compile OBJCXX with /usr/bin/c++
 CXX_DEFINES = -DGL_SILENCE_DEPRECATION
 
-CXX_INCLUDES = -I/opt/homebrew/Cellar/sfml/3.0.2/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/opt/libpng/include/libpng16 -I/Users/Lithos/Documents/GitHub/spine/mac-dockpet/.. -I/Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include -I/Users/Lithos/Documents/GitHub/spine/spine-runtimes/spine-cpp/spine-cpp/include
+CXX_INCLUDES = -I/opt/homebrew/Cellar/sfml/3.0.2/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/opt/libpng/include/libpng16 -I/Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/.. -I/Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include -I/Users/Lithos/Documents/GitHub/Ark-DeskPet/spine-runtimes/spine-cpp/spine-cpp/include
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -frtti -fexceptions
 
@@ -13,7 +13,7 @@ CXX_FLAGS = -std=gnu++17 -arch arm64 -frtti -fexceptions
 
 OBJCXX_DEFINES = -DGL_SILENCE_DEPRECATION
 
-OBJCXX_INCLUDES = -I/opt/homebrew/Cellar/sfml/3.0.2/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/opt/libpng/include/libpng16 -I/Users/Lithos/Documents/GitHub/spine/mac-dockpet/.. -I/Users/Lithos/Documents/GitHub/spine/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include -I/Users/Lithos/Documents/GitHub/spine/spine-runtimes/spine-cpp/spine-cpp/include
+OBJCXX_INCLUDES = -I/opt/homebrew/Cellar/sfml/3.0.2/include -I/opt/homebrew/opt/freetype/include/freetype2 -I/opt/homebrew/opt/libpng/include/libpng16 -I/Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/.. -I/Users/Lithos/Documents/GitHub/Ark-DeskPet/mac-dockpet/../spine-runtimes/spine-cpp/spine-cpp/include -I/Users/Lithos/Documents/GitHub/Ark-DeskPet/spine-runtimes/spine-cpp/spine-cpp/include
 
 OBJCXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -frtti -fexceptions
 
