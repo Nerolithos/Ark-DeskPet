@@ -1,2 +1,5 @@
 .vscode
 /Errors
+
+.DS_Store
+*/.DS_Store
