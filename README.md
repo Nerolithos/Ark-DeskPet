@@ -1,12 +1,14 @@
 # Ark DeskPet
 
-This Repository is an implementation exercise of spine(cpp) for a CUHKSZ C++ class. I did it only for fun, don't see it that as a university homework. This final product(an MacOS app), is a desktop-ish programme, or whatever. I adopted it into a [online game](https://blog.nero-lithos.com/pet/).
+This Repository is an implementation exercise of spine(cpp) for a CUHKSZ C++ class. I did it only for fun, don't see it that as a university homework. This final product(an MacOS app), is a desktop-ish programme, or whatever. Because of MacOS APP-Signature problems, you may not be able to open the application file, to allow you to see the final product, **I adopted it into an [online game](https://blog.nero-lithos.com/pet/).**
 
 - Runnables:
 
 The MacOS app is located at `./Mac-dockpet/build/RosMonDockPet`, which is NOT compatible with any device running Win system. The unmodified-raw-cpp file is located at `./runros_sfml`.
 
 You can run by `./spine/mac-dockpet/build/RosMonDockPet.app/Contents/MacOS/RosMonDockPet` or just double-clicking the app. If it failed, it's maybe because of a non-universal codesign, and you may need to sign it with `cmake --build . -- -j4` it yourself (you'll need sfml and cmake in terminal at least).
+
+The online game infused with a similar spine-ts program is at https://blog.nero-lithos.com/pet/.
 
 - Other Components:
 
