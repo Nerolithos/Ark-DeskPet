@@ -1,3 +1,5 @@
+# Ark DeskPet
+
 This Repository is an implementation exercise of spine(cpp) for a CUHKSZ C++ class. I did it only for fun, don't see it that as a university homework. This final product(an MacOS app), is a desktop-ish programme, or whatever. I adopted it into a [online game](https://blog.nero-lithos.com/pet/).
 
 - Runnables:
