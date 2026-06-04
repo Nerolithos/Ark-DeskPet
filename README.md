@@ -24,7 +24,7 @@ Again, **Copyright © Hypergryph. All rights reserved. For non-commercial use on
 
 
 
-这个仓库是一个关于 spine(cpp) 的实例化练习，作为香港中文大学（深圳）C++ 课程的延伸探索。我只是出于兴趣完成的，请不要把它当作大学作业来看待。最终结果是一个类似于桌宠之类的东西。
+这个仓库是一个关于 spine(cpp) 的实例化练习，作为香港中文大学（深圳）C++ 课程的延伸探索。我只是出于兴趣完成的，请不要把它当作大学作业来看待。最终结果是一个类似于桌宠之类的东西，被加入了一个[线上游戏](https://blog.nero-lithos.com/pet/)中。
 
 - **可运行文件：**
 
